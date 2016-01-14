@@ -8,24 +8,33 @@
 @media screen and (min-width: 660px) {
 
 	#container {
-		margin: 50px 8% 100px;
+		margin: 50px 0 0;
 	}
+
+	#profile-photo {
+		float: left;
+		max-width: 40%;
+		margin: 0 0 0 10%;
+	}
+
+	.words {
+		float: right;
+		width: 40%;
+		padding: 0;
+		margin: 1% 5% 0 0;
+	}	
 
 	h1,
 	h2 {
 		text-align: center;
 	}
 
-	#profile-photo {
-		max-width: 40%;
-		float: left;
-		margin-left: 30px;
+	h1 {
+		margin: 10% 0 0 0;
 	}
 
-	.words {
-		float: right;
-		width: 40%;
-		margin: 6% 10% 0 0;
+	h2 {
+		margin: 10% 0 0 0;
 	}
 
 	.group:after {
