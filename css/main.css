@@ -1,3 +1,17 @@
+
+/*****
+GENERAL STYLES
+*****/
+
+p {
+	font-family: Roboto;
+}
+
+a {
+	text-decoration: none;
+}
+
+
 /*****
 PAGE: HOME
 *****/
@@ -15,12 +29,12 @@ PAGE: HOME
 	border: 2px solid black;
 }
 
-a {
+#crystal {
 	color: #4bb0ce;
 	text-decoration: none;
 }
 
-a:hover {
+#crystal:hover {
 	color: #5e8eab;
 }
 
@@ -37,6 +51,27 @@ h1 {
 h2 {
 	margin: 1.5em 0 2em;
 	font: 1.6em Lato;
+}
+
+
+/*****
+PAGE: MUSIC
+*****/
+
+#early-bird {
+	text-align: center;
+}
+
+#strange-appeal {
+	text-align: center;
+}
+
+#justin-jesse {
+	text-align: center;
+}
+
+iframe{
+	max-width: 100%;
 }
 
 /*****
