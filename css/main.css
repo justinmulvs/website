@@ -11,6 +11,10 @@ a {
 	text-decoration: none;
 }
 
+h1,
+h2 {
+	font-family: Lato;
+}
 
 /*****
 PAGE: HOME
@@ -29,9 +33,16 @@ PAGE: HOME
 	border: 2px solid black;
 }
 
+#music {
+	color: #990000;
+}
+
+#music:hover {
+	color: #660000;
+}
+
 #crystal {
 	color: #4bb0ce;
-	text-decoration: none;
 }
 
 #crystal:hover {
@@ -42,15 +53,16 @@ PAGE: HOME
 	padding: 0 7%;
 }
 
-h1 {
-	font: bold 1.8em Lato; 
+#name {
+	font-style: bold; 
+	font-size: 1.8em; 
 	font-weight: 800;
 	margin: 1.5em 0 0;
 }
 
-h2 {
+#intro {
 	margin: 1.5em 0 2em;
-	font: 1.6em Lato;
+	font-size: 1.6em;
 }
 
 
@@ -58,20 +70,43 @@ h2 {
 PAGE: MUSIC
 *****/
 
-#early-bird {
+.music-container {
 	text-align: center;
+	margin: 20px auto;
+	padding-bottom: 10px;
 }
 
-#strange-appeal {
-	text-align: center;
+.music-container p {
+	max-width: 90%;
+	margin: 1em auto;
+	text-align: left;
+}
+
+#early-bird {
+	background: #fff3b2;
+	background: radial-gradient(circle at top, #ffeb7f, transparent 120%);
+	border-top: 1px solid #e5d372;
+	border-bottom: 1px solid #fff1a5;
+}
+
+#early-bird a {
+	color: #6a431c;
+}
+
+#early-bird a:hover {
+	color: #fff;
 }
 
 #justin-jesse {
-	text-align: center;
+	background: #990000;
+	border-top: 1px solid #800000;
+	border-bottom: 1px solid #800000;
+	color: #fff;
+	margin-bottom: 95px;
 }
 
 iframe{
-	max-width: 100%;
+	max-width: 95%;
 }
 
 /*****
@@ -113,9 +148,11 @@ html {
     position: relative;
     min-height: 100%;
 }
+
 body {
     margin: 0 0 60px; /* bottom = footer height */
 }
+
 footer {
     position: absolute;
     left: 0;
