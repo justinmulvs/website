@@ -5,7 +5,12 @@
 	}
 }
 
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 670px) {
+
+	/***
+	PAGE: HOME
+	***/
+
 
 	#container {
 		margin: 70px 0 0;
@@ -37,9 +42,66 @@
 		margin: 10% 0 0 0;
 	}
 
+	/***
+	FLOAT FIX
+	***/
+
 	.group:after {
 		content: "";
 		display: table;
 		clear: both; 
+	}
+}
+
+@media screen AND (min-width: 930px) {
+
+	/***
+	PAGE: MUSIC
+	***/
+
+	.music-container {
+		padding: 0 0.3% 20px;
+	}
+
+	#early-bird {
+		float: left;
+		max-width: 45%;
+		margin: 0 1% 10px 3%;
+		border: 1px solid #e5d372;
+	}
+/*
+	#strange-appeal {
+		float: right;
+		max-width: 45%;
+		margin: 0 3% 0 1%;
+		border: 1px solid #999;
+	}
+
+
+	#justin-jesse {
+		float: right;
+		max-width: 45%;
+		border: 1px solid #800000;
+		margin: 2em 3% 100px 1%;
+	}*/
+
+	/***ALT LAYOUT***/
+
+		#strange-appeal {
+		float: right;
+		max-width: 45%;
+		margin: 0 3% 0 1%;
+		border: 1px solid #999;
+	}
+
+	#strange-appeal p {
+		margin: 2em auto;
+	}
+
+	#justin-jesse {
+		clear: both;
+		max-width: 45%;
+		border: 1px solid #800000;
+		margin: 0 auto 100px;
 	}
 }

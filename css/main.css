@@ -42,7 +42,7 @@ PAGE: HOME
 }
 
 #crystal {
-	color: #4bb0ce;
+	color: #48b1db;
 }
 
 #crystal:hover {
@@ -70,6 +70,12 @@ PAGE: HOME
 PAGE: MUSIC
 *****/
 
+nav {
+	text-align: center;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #ddd;
+}
+
 .music-container {
 	text-align: center;
 	margin: 20px auto;
@@ -84,9 +90,10 @@ PAGE: MUSIC
 
 #early-bird {
 	background: #fff3b2;
-	background: radial-gradient(circle at top, #ffeb7f, transparent 120%);
+	background: radial-gradient(circle at top, #ffef98, #fff7cb 40%, transparent 105%);
 	border-top: 1px solid #e5d372;
-	border-bottom: 1px solid #fff1a5;
+	border-bottom: 1px solid #eee;
+	margin-top: 0;
 }
 
 #early-bird a {
@@ -150,7 +157,7 @@ html {
 }
 
 body {
-    margin: 0 0 60px; /* bottom = footer height */
+    margin: 0 0 60px;  /*bottom = footer height */
 }
 
 footer {
