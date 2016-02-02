@@ -12,7 +12,8 @@ a {
 }
 
 h1,
-h2 {
+h2,
+h3 {
 	font-family: Lato;
 }
 
@@ -41,11 +42,13 @@ PAGE: HOME
 	color: #660000;
 }
 
-#crystal {
+#crystal,
+nav a {
 	color: #48b1db;
 }
 
-#crystal:hover {
+#crystal:hover,
+nav a:hover {
 	color: #5e8eab;
 }
 
@@ -71,9 +74,12 @@ PAGE: MUSIC
 *****/
 
 nav {
-	text-align: center;
-	background-color: #f2f2f2;
-	border-bottom: 1px solid #ddd;
+	text-align: left;
+	border-bottom: 1px solid #eee;
+}
+
+nav a {
+	margin-left: 20px;
 }
 
 .music-container {
@@ -90,14 +96,14 @@ nav {
 
 #early-bird {
 	background: #fff3b2;
-	background: radial-gradient(circle at top, #ffef98, #fff7cb 40%, transparent 105%);
-	border-top: 1px solid #e5d372;
-	border-bottom: 1px solid #eee;
+	background: radial-gradient(circle at top, #fff7d3, #fffbea 40%, transparent 100%);
+	border-bottom: 1px solid #ccc;
+	padding-top: 1px;
 	margin-top: 0;
 }
 
 #early-bird a {
-	color: #6a431c;
+	color: #0687f5;
 }
 
 #early-bird a:hover {
