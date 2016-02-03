@@ -128,7 +128,7 @@ FOOTER ICONS
 
 footer {
 	background-color: #f2f2f2;
-	padding: 1em;
+	padding: 1em 0;
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
 	text-align: center;
@@ -163,13 +163,13 @@ html {
 }
 
 body {
-    margin: 0 0 60px;  /*bottom = footer height */
+    margin: 0 0 70px;  /*bottom = footer height */
 }
 
 footer {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 60px;
+    height: 70px;
     width: 100%;
 }
