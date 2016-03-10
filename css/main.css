@@ -17,14 +17,18 @@ h3 {
 	font-family: Lato;
 }
 
-/*****
-PAGE: HOME
-*****/
-
 .container {
 	text-align: center;
 	margin-top: 10px;
 }
+
+.underline {
+	text-decoration: underline;
+}
+
+/*****
+PAGE: HOME
+*****/
 
 #profile-photo {
 	display: block;
@@ -76,6 +80,8 @@ PAGE: MUSIC
 nav {
 	text-align: left;
 	border-bottom: 1px solid #eee;
+	background: #fcfcfc;
+	overflow: auto;
 }
 
 nav a {
@@ -126,6 +132,12 @@ iframe{
 PAGE:BOOKS
 ****/
 
+#books-container{
+	max-width: 90%;
+	margin: auto;
+	padding: 20px 0;
+}
+
 #books-overview {
 	text-align: left;
 	list-style: none;
@@ -140,6 +152,8 @@ PAGE:BOOKS
 /****
 PAGE:NOTES
 ****/
+
+
 
 /*****
 FOOTER ICONS

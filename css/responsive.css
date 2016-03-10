@@ -53,6 +53,14 @@
 	}
 }
 
+	/***
+	PAGE:BOOKS
+	***/
+	
+	#books-container{
+		max-width: 80%;
+	}
+
 @media screen AND (min-width: 930px) {
 
 	/***
@@ -60,7 +68,6 @@
 	***/
 
 	nav {
-		margin-bottom: 20px;
 		background: #fcfcfc;
 		padding-top: 1px;
 	}
@@ -109,5 +116,19 @@
 		max-width: 45%;
 		border: 1px solid #800000;
 		margin: 0 auto 124px;
+	}
+
+	/***
+	PAGE: BOOKS
+	***/
+	#books{
+		background-color: #fafafa;
+	}
+
+	#books-container{
+		max-width: 90%;
+		background-color: white;
+		box-sizing: border-box;
+		padding: 20px 20%;
 	}
 }
