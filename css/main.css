@@ -154,7 +154,11 @@ PAGE:BOOKS
 PAGE:NOTES
 ****/
 
-
+.notes {
+	font-family: Roboto;
+	max-width: 80%;
+	margin: auto;
+}
 
 /*****
 FOOTER ICONS

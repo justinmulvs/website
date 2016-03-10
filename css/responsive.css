@@ -144,5 +144,6 @@
 		background-color: white;
 		box-sizing: border-box;
 		padding: 20px 20% 80px;
+		border: 1px solid #f2f2f2;
 	}
 }
