@@ -143,7 +143,31 @@
 		max-width: 90%;
 		background-color: white;
 		box-sizing: border-box;
-		padding: 20px 20% 80px;
 		border: 1px solid #f2f2f2;
+	}
+
+	#books-overview {	
+		padding: 20px 20% 0;
+	}
+
+	#top{
+		max-width: 40%;
+		margin: 4em 35% 40px 25%;
+	}
+
+	.books{
+		min-height: 250px;
+	}
+
+	.left{
+		float: left;
+		width: 45%;
+		margin: 0 1% 0 4%;
+	}
+
+	.right{
+		float: right;
+		width: 45%;
+		margin: 0 4% 0 1%;
 	}
 }
