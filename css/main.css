@@ -11,6 +11,10 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	color: #ac69ea;
+}
+
 h1,
 h2,
 h3 {
@@ -132,6 +136,14 @@ iframe{
 PAGE:BOOKS
 ****/
 
+.book-list a {
+	color: #001dff;
+}
+
+.book-list a:hover {
+	color: #19e59a;
+}
+
 #books-container{
 	max-width: 90%;
 	margin: auto;
@@ -162,10 +174,16 @@ PAGE:BOOKS
 PAGE:NOTES
 ****/
 
+.book-summary {
+	padding: 0 5%;
+	border-bottom: 1px solid #555;
+}
+
 .notes {
 	font-family: Roboto;
 	max-width: 80%;
 	margin: auto;
+	padding-top: 2em;
 }
 
 /*****
@@ -209,13 +227,12 @@ html {
 }
 
 body {
-    margin: 0 0 70px;  /*bottom = footer height */
+    margin: 0 0 114px;  /*bottom = footer height */
 }
 
 footer {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 70px;
     width: 100%;
 }

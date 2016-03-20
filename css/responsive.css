@@ -161,13 +161,32 @@
 
 	.left{
 		float: left;
-		width: 45%;
-		margin: 0 1% 0 4%;
+		width: 38%;
+		margin: 0 3% 0 9%;
 	}
 
 	.right{
 		float: right;
-		width: 45%;
-		margin: 0 4% 0 1%;
+		width: 38%;
+		margin: 0 9% 0 3%;
+	}
+
+	/****
+	PAGE:NOTES
+	****/
+
+	#notes {
+		background-color: #fafafa;
+	}
+
+	.book-summary{
+		 background-color: white;
+		 border-bottom: 1px solid #ddd;
+	}
+
+	.notes {
+		background-color: white;
+		border: 1px solid #f2f2f2;
+		padding: 2em 20px;
 	}
 }
