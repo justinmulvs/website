@@ -186,6 +186,10 @@ PAGE:NOTES
 	padding-top: 2em;
 }
 
+.notes img {
+	max-width: 100%;
+}
+
 /*****
 FOOTER ICONS
 *****/
