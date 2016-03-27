@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<!--styles go here-->
 	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700|Lato' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700|Lato:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="../css/main.css">
 	<link rel="stylesheet" type="text/css" href="../css/responsive.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,13 +27,13 @@
 
 <div class="book-summary">
 
-<a href="../books.html">< Back to Books</a>
+<a href="../books">< Back to Books</a>
 
 <h1>
 	In Defense of Food
 </h1>
 
-<p>Food and nutrition are so damn confusing... Or are they? Michael Pollan lays out a few incredibly simple rules for how to think about your diet and food, with history to explain why things are the way they are. Want to skip the history? Jumpt to part three to get the rules for eating well.</p><br>
+<p>Food and nutrition are so damn confusing... Or are they? Michael Pollan lays out a few incredibly simple rules for how to think about your diet and food, with history to explain why things are the way they are. Want to skip the history? Jump to part three to get the rules for eating well.</p><br>
 
 </div>
 
@@ -43,7 +43,7 @@
 	<div><b><span style="font-size: 24px;"><br/></span></b></div>
 	<div>Eat food. Not much. Mostly Plants.</div>
 	<div><br/></div>
-	<div>A little meat won’t kill you, but it’s better approached as a side dish, and you’re better off eating who fresh foods than anything processed.</div>
+	<div>A little meat won’t kill you, but it’s better approached as a side dish, and you’re better off eating whole fresh foods than anything processed.</div>
 	<div><b><br/></b></div>
 	<div><b>If you’re concerned about your health, you should probably avoid any food making a health claim.</b> A health claim on food is a strong indication that it’s not really food.</div>
 	<div><br/></div>
@@ -186,10 +186,10 @@
 
 	<footer>
 		<div>
-			<a href="https://www.linkedin.com/in/justinmulvaney" target="_blank"><img src="images/linkedin.png" class="linkedin-icon"></a>
+			<a href="https://www.linkedin.com/in/justinmulvaney" target="_blank"><img src="../images/linkedin.png" class="linkedin-icon"></a>
 		</div>
 		<div>
-			<a href="https://twitter.com/justinmulvs" target="_blank"><img src="images/twitter.png" class="twitter-icon"></a>
+			<a href="https://twitter.com/justinmulvs" target="_blank"><img src="../images/twitter.png" class="twitter-icon"></a>
 		</div>
 	</footer>
 

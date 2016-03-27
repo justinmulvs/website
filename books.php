@@ -6,14 +6,13 @@
 	<meta charset="utf-8">
 	<!--styles go here-->
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700|Lato' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700|Lato:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; max-width: 80%; margin: auto;}
-	
-</style>
+	<style type="text/css">
+		#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; max-width: 80%; margin: auto;}
+	</style>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Google Analytics Tracking-->
@@ -53,7 +52,7 @@
 		<div id="top">
 			<p><span class="underline">My Top 3</span></p>
 			<ul class="book-list">
-				<li><a href="books/seeking-wisdom-from-darwin-to-munger.html" target="_blank"><b>Seeking Wisdom: From Darwin to Munger</b></a> -Peter Bevelin</li>
+				<li><a href="books/seeking-wisdom-from-darwin-to-munger" target="_blank"><b>Seeking Wisdom: From Darwin to Munger</b></a> -Peter Bevelin</li>
 				<li><b>Thinking, Fast and Slow</b> -Daniel Kahneman</li>
 				<li><b>The 7 Habits of Highly Effective People</b> -Stephen R. Covey</li>
 			</ul>
@@ -63,7 +62,7 @@
 			<p><span class="underline">Psychology</span></p>
 			<ul class="book-list">
 				<li><b>Influence</b> -Robert Cialdini</li>
-				<li><b><a href="books/predictably-irrational.html" target="_blank">Predictably Irrational</a></b> -Dan Ariely</li>
+				<li><b><a href="books/predictably-irrational" target="_blank">Predictably Irrational</a></b> -Dan Ariely</li>
 				<li><b>Flow</b> -Mihaly Csikszentmihalyi</li>
 				<li><b>Drive</b> -Daniel Pink</li>
 				<li><b>The Paradox of Choice</b> -Barry Schwartz</li>
@@ -77,7 +76,7 @@
 			<ul class="book-list">
 				<li><b>The Happiness Hypothesis</b> -Jonathan Haidt</li>
 				<li><b>The Power of Full Engagement</b> -Jim Loehr and Tony Schwarz</li>
-				<li><b><a href="books/essentialism.html" target="_blank">Essentialism: The Disciplined Pursuit of Less</a></b> -Greg McKeown</li>
+				<li><b><a href="books/essentialism" target="_blank">Essentialism: The Disciplined Pursuit of Less</a></b> -Greg McKeown</li>
 				<li><b>SuperBetter: A Revolutionary Approach to Getting Stronger, Happier, Braver and More Resilient</b> -Jane McGonigal</li>
 			</ul>
 		</div>
@@ -85,7 +84,7 @@
 		<div class="books left" >
 			<p><span class="underline">Philosophy/Life</span></p>
 			<ul class="book-list">
-				<li><b><a href=books/a-guide-to-the-good-life.html target="_blank">A Guide to The Good Life</a></b> -William Irvine</li>
+				<li><b><a href="books/a-guide-to-the-good-life" target="_blank">A Guide to The Good Life</a></b> -William Irvine</li>
 				<li><b>Lying</b> -Sam Harris</li>
 			</ul>
 		</div>
@@ -96,7 +95,7 @@
 				<li><b>Zero to One</b> -Peter Thiel</li>
 				<li><b>Positioning</b> -Al Ries and Jack Trout</li>
 				<li><b>Tribes</b> -Seth Godin</li>
-				<li><b><a href="books/never-eat-alone.html" target="_blank">Never Eat Alone</a></b> -Keith Ferrazzi</li>
+				<li><b><a href="books/never-eat-alone" target="_blank">Never Eat Alone</a></b> -Keith Ferrazzi</li>
 				<li><b>How to Win Friends and Influence People</b> -Dale Carnegie</li>
 			</ul>
 		</div>
@@ -105,7 +104,7 @@
 			<p><span class="underline">Misc. Others</span> (They're still great books!)</p>
 			<ul class="book-list">
 				<li><b>The Selfish Gene</b> -Ricard Dawkins</li>
-				<li><b><a href="books/in-defense-of-food.html" target="_blank">In Defense of Food</a></b> -Michael Pollan</li>
+				<li><b><a href="books/in-defense-of-food" target="_blank">In Defense of Food</a></b> -Michael Pollan</li>
 				<li><b>Don't Make Me Think</b> -Steve Krug</li>
 				<li><b>Rocket Surgery Made Easy</b> -Steve Krug</li>
 			</ul>

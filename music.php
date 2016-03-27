@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<!-- styles go here -->
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link href='https://fonts.googleapis.com/css?family=Lato|Roboto' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700|Lato:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">

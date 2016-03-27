@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<!--styles go here-->
 	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700|Lato' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700|Lato:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="../css/main.css">
 	<link rel="stylesheet" type="text/css" href="../css/responsive.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,13 +27,13 @@
 
 <div class="book-summary">
 
-<a href="../books.html">< Back to Books</a>
+<a href="../books">< Back to Books</a>
 
 <h1>
 	Seeking Wisdom: From Darwin to Munger
 </h1>
 
-<p>Seeking Wisdom is by far one of the greatest books I've ever read. It takes a wealth of research on psychological bias and poor thinking and places it all in one place- in a highly actionable format to boot. Buy a copy to read and consult it regularly. <br><br>The first half of the book is based on the Psychology of Misjudgement, while the second is focused on more Math and Science based errors.</p><br>
+<p>Seeking Wisdom is by far one of the greatest books I've ever read. It takes a wealth of research on psychological bias and poor thinking and gathers it in one place- in a highly actionable format to boot. Buy a copy to read and consult it regularly. <br><br>The first half of the book is based on the Psychology of Misjudgement, while the second is focused on more Math and Science based errors.</p><br>
 
 </div>
 

@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="google-site-verification" content="tEDKlPeP9CEQAubpoYq3CnnADrUQ3Az0lE5zbEeNwtQ" />
 	<title>Home | Justin Mulvaney</title>
 	<meta name="description" content="Justin Mulvaney is a self-proclaimed musician and nerd.">
 	<meta charset="utf-8">
 	<!--styles go here-->
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link href='https://fonts.googleapis.com/css?family=Lato|Roboto' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700|Lato:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,7 +31,7 @@
 
 		<div class="words">
 			<h1 id="name">Hey, I'm Justin.</h1>
-			<h2 id="intro">I play <a href="music.html" id="music">Music</a> and work at <a href="https://www.crystalknows.com/" target="_blank" id="crystal">Crystal</a>.<br><br>I also like to read a lot of <a href="books.html" id="book-link">Books</a> and share my notes from them.</h2>
+			<h2 id="intro">I play <a href="music" id="music">Music</a> and work at <a href="https://www.crystalknows.com/" target="_blank" id="crystal">Crystal</a>.<br><br>I also like to read a lot of <a href="books" id="book-link">Books</a> and share my notes from them.</h2>
 		</div>
 		
 	</div>
