@@ -29,9 +29,7 @@
 
 <body id="books">
 
-	<nav>
-		<h3><a href="http://www.justinmulvaney.com/">Home</a></h3>
-	</nav>
+	<?php include "assets/header.php" ?>
 
 	<div class="container group" id="books-container">
 		<div id="books-overview">
@@ -144,13 +142,8 @@
 <!--End mc_embed_signup-->
 	</div>
 
-	<footer>
-		<div>
-			<a href="https://www.linkedin.com/in/justinmulvaney" target="_blank"><img src="images/linkedin.png" class="linkedin-icon"></a>
-		</div>
-		<div>
-			<a href="https://twitter.com/justinmulvs" target="_blank"><img src="images/twitter.png" class="twitter-icon"></a>
-		</div>
-	</footer>
+<?php  
+	include "assets/footer.php"
+?>
 </body>
 </html>
