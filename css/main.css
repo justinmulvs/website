@@ -97,8 +97,11 @@ nav {
 	overflow: auto;
 }
 
-nav a {
-	margin-left: 20px;
+nav p {
+	margin: 18.72px 0 18.72px 20px;
+	font-family: 'Lato';
+	font-size: 1.17em;
+	font-weight: bold;
 }
 
 .music-container {

@@ -27,14 +27,11 @@
 <body>
 
 	<div class="container group" id="home">
-		
 		<img src="assets/images/award.png" id="profile-photo" title="Photo of Justin Mulvaney" alt="Photo of Justin Mulvaney">
-
 		<div class="words">
-			<h1 id="name">"Hey, Im Justin."</h1>
-			<h2 id="intro">I play <a href="music" id="music">Music</a> and work at <a href="https://www.crystalknows.com/" target="_blank" id="crystal">Crystal</a>.<br><br>I also like to read a lot of <a href="books" id="book-link">Books</a> and share my notes from them.</h2>
+			<h1 id="name">Hey, I'm Justin.</h1>
+			<h2 id="intro">I play <a href="music" id="music">Music</a> and work at <a href="https://www.crystalknows.com/" target="_blank" id="crystal">Crystal</a>.<br><br>I also like to read a lot of <a href="books" id="book-link">Books</a>.</h2>
 		</div>
-		
 	</div>
 
 <?php include "assets/footer.php"; ?>

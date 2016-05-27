@@ -33,9 +33,7 @@
 
 	<div class="container group" id="books-container">
 		<div id="books-overview">
-
-			<h1>Books I've Read</h1>
-
+			<h1>Book Notes</h1>
 			<p>I read a lot of nonfiction, and take pretty detailed notes for most of books. I like to think of these as <b>sparknotes for books you give a shit about.</b> Some things I think you should know as you browse:</p>
 			<ol>
 				<li>If it's listed here, I think it's worth reading.</li>
@@ -109,10 +107,16 @@
 		</div>
 
 <!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
 <div id="mc_embed_signup">
 <form action="//justinmulvaney.us11.list-manage.com/subscribe/post?u=225664e6acb42af32191318f2&amp;id=0615841a9b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h2>Want to be updated as the list grows? Sign up!</h2>
+	<h2>Subscribe to our mailing list</h2>
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
@@ -124,10 +128,11 @@
 </label>
 	<input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
 </div>
-<div class="mc-field-group">
-	<label for="mce-LNAME">Last Name  <span class="asterisk">*</span>
-</label>
-	<input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
+<div class="mc-field-group input-group">
+    <strong>Justin Mulvaney's Email List </strong>
+    <ul><li><input type="checkbox" value="1" name="group[13545][1]" id="mce-group[13545]-13545-0"><label for="mce-group[13545]-13545-0">General Updates</label></li>
+<li><input type="checkbox" value="2" name="group[13545][2]" id="mce-group[13545]-13545-1"><label for="mce-group[13545]-13545-1">Daily Blog</label></li>
+</ul>
 </div>
 	<div id="mce-responses" class="clear">
 		<div class="response" id="mce-error-response" style="display:none"></div>
@@ -138,7 +143,7 @@
     </div>
 </form>
 </div>
-<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
 	</div>
 

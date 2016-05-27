@@ -229,9 +229,7 @@
 	</ul>
 </div>
 
-<?php
-	include "../assets/footer.php"
-?>
+<?php include "../assets/footer.php" ?>
 
 </body>
 </html>
