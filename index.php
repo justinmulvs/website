@@ -30,7 +30,7 @@
 		<img src="assets/images/award.png" id="profile-photo" title="Photo of Justin Mulvaney" alt="Photo of Justin Mulvaney">
 		<div class="words">
 			<h1 id="name">Hey, I'm Justin.</h1>
-			<h2 id="intro">I play <a href="music" id="music">Music</a> and work at <a href="https://www.crystalknows.com/" target="_blank" id="crystal">Crystal</a>.<br><br>I also like to read a lot of <a href="books" id="book-link">Books</a>.</h2>
+			<h2 id="intro">I play <a href="music" id="music">Music</a> and work at <a href="https://www.crystalknows.com/" target="_blank" id="crystal">Crystal</a>.<br><br>I also like to read a lot of <a href="books" id="book-link">Books</a> and <a href="http://www.justinmulvaney.com/blog" id="blog-link">Write</a>.</h2>
 		</div>
 	</div>
 

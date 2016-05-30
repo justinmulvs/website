@@ -116,7 +116,7 @@
 <div id="mc_embed_signup">
 <form action="//justinmulvaney.us11.list-manage.com/subscribe/post?u=225664e6acb42af32191318f2&amp;id=0615841a9b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h2>Subscribe to our mailing list</h2>
+	<h2>Want to be updated as the list grows? Join the mailing list!</h2>
 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
@@ -130,8 +130,8 @@
 </div>
 <div class="mc-field-group input-group">
     <strong>Justin Mulvaney's Email List </strong>
-    <ul><li><input type="checkbox" value="1" name="group[13545][1]" id="mce-group[13545]-13545-0"><label for="mce-group[13545]-13545-0">General Updates</label></li>
-<li><input type="checkbox" value="2" name="group[13545][2]" id="mce-group[13545]-13545-1"><label for="mce-group[13545]-13545-1">Daily Blog</label></li>
+    <ul><li><input type="checkbox" value="1" name="group[13545][1]" id="mce-group[13545]-13545-0"><label for="mce-group[13545]-13545-0"> General Updates</label></li>
+<li><input type="checkbox" value="2" name="group[13545][2]" id="mce-group[13545]-13545-1"><label for="mce-group[13545]-13545-1"> Daily Blog</label></li>
 </ul>
 </div>
 	<div id="mce-responses" class="clear">

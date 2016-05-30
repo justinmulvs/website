@@ -68,6 +68,14 @@ nav a:hover {
 	color: #00e700;
 }
 
+#blog-link {
+	color: #001dff;
+}
+
+#blog-link:hover {
+	color: #19e59a;
+}
+
 .words {
 	padding: 1em 7%;
 }
