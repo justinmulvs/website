@@ -241,6 +241,13 @@ footer div {
 	max-width: 60px;
 }
 
+.youtube-icon {
+	width: 100%;
+	margin: auto 0;
+	border-radius: 20%;
+	max-width: 60px;	
+}
+
 /*****
 STICKY-FOOTER
 *****/
