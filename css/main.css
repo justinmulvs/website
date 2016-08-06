@@ -35,11 +35,10 @@ PAGE: HOME
 *****/
 
 #profile-photo {
-	display: block;
-	max-width: 80%;
+	max-width: 70%;
 	margin: 20px auto 0;
 	border-radius: 10%;
-	border: 2px solid black;
+	border: 1px solid grey;
 }
 
 #music {
@@ -76,10 +75,6 @@ nav a:hover {
 	color: #19e59a;
 }
 
-.words {
-	padding: 1em 7%;
-}
-
 #name {
 	font-style: bold; 
 	font-size: 1.8em; 
@@ -97,20 +92,6 @@ nav a:hover {
 /*****
 PAGE: MUSIC
 *****/
-
-nav {
-	text-align: left;
-	border-bottom: 1px solid #eee;
-	background: #fcfcfc;
-	overflow: auto;
-}
-
-nav p {
-	margin: 18.72px 0 18.72px 20px;
-	font-family: 'Lato';
-	font-size: 1.17em;
-	font-weight: bold;
-}
 
 .music-container {
 	text-align: center;

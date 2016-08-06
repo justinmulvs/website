@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="google-site-verification" content="tEDKlPeP9CEQAubpoYq3CnnADrUQ3Az0lE5zbEeNwtQ" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Leave the above for bootstrap -->
+
 	<title>Home | Justin Mulvaney</title>
 	<meta name="description" content="Justin Mulvaney is a self-proclaimed musician and nerd.">
-	<meta charset="utf-8">
+	
 	<!--styles go here-->
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700|Lato:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
@@ -26,15 +30,21 @@
 
 <body>
 
-	<div class="container group" id="home">
-		<img src="assets/images/award.png" id="profile-photo" title="Photo of Justin Mulvaney" alt="Photo of Justin Mulvaney">
-		<div class="words">
-			<h1 id="name">Hey, I'm Justin.</h1>
-			<h2 id="intro">I play <a href="music" id="music">Music</a> and work at <a href="https://www.crystalknows.com/" target="_blank" id="crystal">Crystal</a>.<br><br>I also like to read a lot of <a href="books" id="book-link">Books</a> and <a href="http://www.justinmulvaney.com/blog" id="blog-link">Write</a>.</h2>
-		</div>
+	<?php include "assets/header.php" ?>
+
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="col-md-6 text-center">
+				<img src="assets/images/crystalpic.png" id="profile-photo" title="Photo of Justin Mulvaney" alt="Photo of Justin Mulvaney">
+			</div>
+			<div class="col-md-6 text-center">
+				<h1 id="name">Hey, I'm Justin.</h1>
+				<h2 id="intro">I play <a href="music" id="music">Music</a> and work at <a href="https://www.crystalknows.com/" target="_blank" id="crystal">Crystal</a>.<br><br>I also like to read a lot of <a href="books" id="book-link">Books</a> and <a href="http://www.justinmulvaney.com/blog" id="blog-link">Write</a>.</h2>
+			</div>
+		</div>	
 	</div>
 
-<?php include "assets/footer.php"; ?>
+	<?php include "assets/footer.php"; ?>
 
 </body>
 </html>
