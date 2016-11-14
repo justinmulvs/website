@@ -27,10 +27,10 @@ PAGE: HOME
 }
 
 #homepage a {
-	color: green;
+	color: orange;
 }
 
-#homepage a {
+#homepage a:hover {
 	color: green;
 }
 
