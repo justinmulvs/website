@@ -7,7 +7,7 @@
   <!-- Leave the above for bootstrap -->
 
 	<title>Home | Justin Mulvaney</title>
-	<meta name="description" content="Justin Mulvaney is a self-proclaimed musician and nerd.">
+	<meta name="description" content="Growth | Data Analytics | Product Strategy">
 	
 	<!--styles go here-->
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
@@ -28,23 +28,27 @@
 	</script>
 </head>
 
-<body>
+<body id="homepage">
 
-	<?php include "assets/header.php" ?>
+		<div class="container-fluid">
 
-	<div class="container-fluid">
-		<div class="row-fluid">
-			<div class="col-md-6 text-center">
-				<img src="assets/images/crystalpic.png" id="profile-photo" title="Photo of Justin Mulvaney" alt="Photo of Justin Mulvaney">
+			<div class="row" id="header">
+				<div class="col-xs-12 text-right">
+					<a href="https://angel.co/justin-mulvaney" target="_blank"><img src="assets/images/al_icon.png" alt="AngelList Icon" class="al-icon"></a>
+					<a href="https://www.linkedin.com/in/justinmulvaney" target="_blank"><img src="assets/images/li_icon.png" alt="LinkedIn Icon" class="icon"></a>
+					<a href="https://twitter.com/justinmulvs" target="_blank"><img src="assets/images/twitter_icon.png" alt="Twitter Icon" class="icon"></a>
+					<a href="mailto:justin.mulvaney@gmail.com" target="_blank"><img src="assets/images/email_icon.png" alt="Email Icon" class="icon"></a>
+				</div>
 			</div>
-			<div class="col-md-6 text-center">
-				<h1 id="name">Hey, I'm Justin.</h1>
-				<h2 id="intro">I play <a href="music" id="music">Music</a> and work at <a href="https://www.crystalknows.com/" target="_blank" id="crystal">Crystal</a>.<br><br>I also like to read a lot of <a href="books" id="book-link">Books</a> and <a href="http://www.justinmulvaney.com/blog" id="blog-link">Write</a>.</h2>
-			</div>
-		</div>	
-	</div>
 
-	<?php include "assets/footer.php"; ?>
+			<div class="row intro">
+				<div class="col-xs-12 text-center">
+					<h1>Justin Mulvaney</h1>
+					<h2>Growth | Data Analytics | Product Strategy</h2>
+					<h3 class="words">I blog <a href="http://www.justinmulvaney.com/blog">here</a> and share book notes <a href="books">here</a>.</h2>
+				</div>
+			</div>	
+		</div>
 
 </body>
 </html>

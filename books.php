@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Books | Justin Mulvaney</title>
-	<meta name="description" content=" Justin Mulvaney: I like to read a lot of books. I share my notes from each here.">
+	<meta name="description" content="Justin Mulvaney: I like to read a lot of books. I share my notes from them here.">
 	<meta charset="utf-8">
 	<!--styles go here-->
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -28,8 +28,6 @@
 </head>
 
 <body id="books">
-
-	<?php include "assets/header.php" ?>
 
 	<div class="container group" id="books-container">
 		<div id="books-overview">
@@ -147,8 +145,5 @@
 <!--End mc_embed_signup-->
 	</div>
 
-<?php  
-	include "assets/footer.php"
-?>
 </body>
 </html>

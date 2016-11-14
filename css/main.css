@@ -11,15 +11,63 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-	color: #ac69ea;
-}
-
 h1,
 h2,
 h3 {
 	font-family: 'Lato';
 }
+
+
+/*****
+PAGE: HOME
+*****/
+
+#homepage{
+	background-color: black;
+}
+
+#homepage a {
+	color: green;
+}
+
+#homepage a {
+	color: green;
+}
+
+#header {
+	margin-top: 55px;
+}
+
+.al-icon {
+	height: 26px;
+	width: 20px;
+	margin: 0 5px;
+}
+
+.icon {
+	height: 26px;
+	width: 26px;
+	margin: 0 5px;
+}
+
+.intro {
+	margin-top: 100px;
+}
+
+.intro h1,
+h2,
+h3 {
+	color: white;
+}
+
+.words {
+	font-size: 1.5em;
+	font-weight: 100;
+}
+
+/****
+PAGE:BOOKS
+****/
 
 .container {
 	text-align: center;
@@ -29,113 +77,6 @@ h3 {
 .underline {
 	text-decoration: underline;
 }
-
-/*****
-PAGE: HOME
-*****/
-
-#profile-photo {
-	max-width: 70%;
-	margin: 20px auto 0;
-	border-radius: 10%;
-	border: 1px solid grey;
-}
-
-#music {
-	color: #990000;
-}
-
-#music:hover {
-	color: #e60000;
-}
-
-#crystal,
-nav a {
-	color: #459CC4;
-}
-
-#crystal:hover,
-nav a:hover {
-	color: #8fc4dc;
-}
-
-#book-link {
-	color: #007200;
-}
-
-#book-link:hover {
-	color: #00e700;
-}
-
-#blog-link {
-	color: #001dff;
-}
-
-#blog-link:hover {
-	color: #19e59a;
-}
-
-#name {
-	font-style: bold; 
-	font-size: 1.8em; 
-	font-weight: 700;
-	margin: 1.5em 0 0;
-}
-
-#intro {
-	margin: 1.5em 0 2em;
-	font-size: 1.6em;
-	font-weight: 400;
-}
-
-
-/*****
-PAGE: MUSIC
-*****/
-
-.music-container {
-	text-align: center;
-	margin: 20px auto;
-	padding-bottom: 10px;
-}
-
-.music-container p {
-	max-width: 90%;
-	margin: 1em auto;
-	text-align: left;
-}
-
-#early-bird {
-	background: #fff3b2;
-	background: radial-gradient(circle at top, #fff7d3, #fffbea 40%, transparent 100%);
-	border-bottom: 1px solid #ccc;
-	padding-top: 1px;
-	margin-top: 0;
-}
-
-#early-bird a {
-	color: #0687f5;
-}
-
-#early-bird a:hover {
-	color: #fff;
-}
-
-#justin-jesse {
-	background: #990000;
-	border-top: 1px solid #800000;
-	border-bottom: 1px solid #800000;
-	color: #fff;
-	margin-bottom: 95px;
-}
-
-iframe{
-	max-width: 95%;
-}
-
-/****
-PAGE:BOOKS
-****/
 
 .book-list a {
 	color: #001dff;
@@ -220,13 +161,6 @@ footer div {
 	margin: auto 0;
 	border-radius: 20%;
 	max-width: 60px;
-}
-
-.youtube-icon {
-	width: 100%;
-	margin: auto 0;
-	border-radius: 20%;
-	max-width: 60px;	
 }
 
 /*****
