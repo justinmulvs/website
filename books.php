@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Books | Justin Mulvaney</title>
-	<meta name="description" content="Justin Mulvaney: I like to read a lot of books. I share my notes from them here.">
+	<meta name="description" content="Justin Mulvaney | I like to read a lot of books. I share my notes from them here.">
 	<meta charset="utf-8">
 	<!--styles go here-->
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -32,13 +32,13 @@
 	<div class="container group" id="books-container">
 		<div id="books-overview">
 			<h1>Book Notes</h1>
-			<p>I read a lot of nonfiction, and take pretty detailed notes for most of books. I like to think of these as <b>sparknotes for books you give a shit about.</b> Some things I think you should know as you browse:</p>
+			<p>I read a lot of nonfiction, and take detailed notes for most books. I like to think of these as <b>sparknotes for books you give a shit about.</b> Some things to know as you browse:</p>
 			<ol>
 				<li>If it's listed here, I think it's worth reading.</li>
-				<li>The books are categorized, with ones I generally recommend the most at the top.</li>
-				<li>There aren't notes uploaded for all of them. See one you'd like the notes uploaded for? Shoot me a tweet or an email! (Preferably a tweet. I'm not a fan of email.)</li>
+				<li>They're categorized, generally with the books I recommend the most at the top.</li>
+				<li>There aren't notes uploaded for all of them. If you see a book you'd like notes for shoot me a tweet or an email!</li>
 			</ol>
-			<p>If I haven't given it away already, I'm a huge book nerd. <b>I would love to hear from you regarding your top books recs, thoughts or questions on any of the books/notes here, or requests regarding books you'd like me to read and take notes on.</b> Want to be updated when I release new notes? <a href="http://eepurl.com/bq4RMz"><b>Join the email list</b></a>.<br><br>
+			<p>If I haven't given it away already, I'm a book nerd. <b>I would love to hear from you regarding top book recs, thoughts or questions on any of the books/notes here, or requests regarding books you'd like me to read and take notes on.</b> If you want to be updated when I release new notes, you can <a href="http://eepurl.com/bq4RMz"><b>join the email list</b></a>.<br><br>
 			Onto the books!
 			 </p>
 		</div>

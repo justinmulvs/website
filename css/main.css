@@ -22,7 +22,7 @@ h3 {
 PAGE: HOME
 *****/
 
-#homepage{
+#homepage {
 	background-color: black;
 }
 
@@ -36,6 +36,7 @@ PAGE: HOME
 
 #header {
 	margin-top: 55px;
+	padding-right: 5px;
 }
 
 .al-icon {
@@ -63,6 +64,15 @@ h3 {
 .words {
 	font-size: 1.5em;
 	font-weight: 100;
+	line-height: 1.5em;
+}
+
+#crystal a {
+	color: #43A2E8;
+}
+
+#crystal a:hover {
+	color: #2E6492;
 }
 
 /****
@@ -130,55 +140,4 @@ PAGE:NOTES
 
 .notes img {
 	max-width: 100%;
-}
-
-/*****
-FOOTER ICONS
-*****/
-
-footer {
-	background-color: #f2f2f2;
-	padding: 1em 0;
-	border-top: 1px solid #ddd;
-	border-bottom: 1px solid #ddd;
-	text-align: center;
-}
-
-footer div {
-	display: inline-block;
-	max-width: 15%;
-}
-
-.twitter-icon {
-	background-color: #55acee;
-	border-radius: 20%;
-	width: 100%;
-	max-width: 60px;
-}
-
-.linkedin-icon {
-	width: 100%;
-	margin: auto 0;
-	border-radius: 20%;
-	max-width: 60px;
-}
-
-/*****
-STICKY-FOOTER
-*****/
-
-html {
-    position: relative;
-    min-height: 100%;
-}
-
-body {
-    margin: 0 0 114px;  /*bottom = footer height */
-}
-
-footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
 }

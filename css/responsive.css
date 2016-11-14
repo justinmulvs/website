@@ -4,17 +4,9 @@
 
 @media screen and (min-width: 670px) {
 
-
 	/***
-	FLOAT FIX
+	PAGE:HOME
 	***/
-
-	.group:after {
-		content: "";
-		display: table;
-		clear: both; 
-	}
-}
 
 	/***
 	PAGE:BOOKS
@@ -30,11 +22,15 @@
 	PAGE: HOME
 	***/
 
+	#header {
+		margin-right: 20px;
+	}
+
 	/***
 	PAGE: BOOKS
 	***/
 	#books{
-		background-color: #fafafa;
+		background-color: black;
 	}
 
 	#books-container{

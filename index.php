@@ -45,7 +45,12 @@
 				<div class="col-xs-12 text-center">
 					<h1>Justin Mulvaney</h1>
 					<h2>Growth | Data Analytics | Product Strategy</h2>
-					<h3 class="words">I blog <a href="http://www.justinmulvaney.com/blog">here</a> and share book notes <a href="books">here</a>.</h2>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3 text-center">
+					<h3 class="words">Previously worked Growth at <span id="crystal"><a href="https://www.crystalknows.com" target="_blank">Crystal</a></span>. Currently doing consulting. I blog <a href="http://www.justinmulvaney.com/blog">here</a> and share book notes <a href="books">here</a>.</h3>
 				</div>
 			</div>	
 		</div>
