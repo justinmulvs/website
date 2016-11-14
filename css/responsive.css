@@ -1,47 +1,9 @@
 @media screen and (min-width: 480px) {
 
-	#profile-photo {
-		max-width: 70%;
-	}
 }
 
 @media screen and (min-width: 670px) {
 
-	/***
-	PAGE: HOME
-	***/
-
-
-	.container {
-		margin: 90px 0 0;
-	}
-
-	#profile-photo {
-		float: left;
-		max-width: 40%;
-		margin: 0 0 0 10%;
-	}
-
-	.words {
-		float: right;
-		width: 40%;
-		padding: 0;
-		margin: -2.5% 5% 0 0;
-		font-size: 0.9em;
-	}	
-
-	#name,
-	#intro {
-		text-align: center;
-	}
-
-	#name {
-		margin: 10% 0 0 0;
-	}
-
-	#intro {
-		margin: 10% 0 0 0;
-	}
 
 	/***
 	FLOAT FIX
@@ -67,70 +29,6 @@
 	/***
 	PAGE: HOME
 	***/
-
-	.container {
-		margin: 70px 0 0 0;
-	}
-
-	.words{
-		margin: 0 5% 0 0;
-		font-size: 1em;
-	}
-
-	/***
-	PAGE: MUSIC
-	***/
-
-	nav {
-		background: #fcfcfc;
-		padding-top: 1px;
-	}
-
-	.music-container {
-		padding: 0 0.3% 20px;
-	}
-
-	#early-bird {
-		float: left;
-		max-width: 45%;
-		margin: 20px 1% 20px 3%;
-		border: 1px solid #e5d372;
-	}
-
-	/***ALT LAYOUT***/
-/*
-	#strange-appeal {
-		float: right;
-		max-width: 45%;
-		margin: 0 3% 0 1%;
-		border: 1px solid #999;
-	}
-
-
-	#justin-jesse {
-		float: right;
-		max-width: 45%;
-		border: 1px solid #800000;
-		margin: 2em 3% 100px 1%;
-	}*/
-
-		#strange-appeal {
-		float: right;
-		max-width: 45%;
-		margin: 20px 3% 0 1%;
-		border: 1px solid #999;
-	}
-
-	#strange-appeal p {
-		margin: 2em auto;
-	}
-
-	#justin-jesse {
-		clear: both;
-		max-width: 45%;
-		border: 1px solid #800000;
-		margin: 0 auto 124px;
-	}
 
 	/***
 	PAGE: BOOKS
