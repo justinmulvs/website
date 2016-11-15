@@ -1,22 +1,21 @@
-@media screen and (min-width: 480px) {
-
-}
-
-@media screen and (min-width: 670px) {
-
-	/***
-	PAGE:HOME
-	***/
+@media screen and (min-width: 768px) {
 
 	/***
 	PAGE:BOOKS
 	***/
-	
-	#books-container{
-		max-width: 80%;
+
+	.books {
+		border-left: 1px solid grey;
+		border-right: 1px solid grey;
+		padding: 0 40px;
 	}
 
-@media screen AND (min-width: 930px) {
+	#books-icons {
+		text-align: right;
+	}
+
+}
+@media screen AND (min-width: 970px) {
 
 	/***
 	PAGE: HOME
@@ -24,45 +23,6 @@
 
 	#header {
 		margin-right: 20px;
-	}
-
-	/***
-	PAGE: BOOKS
-	***/
-	#books{
-		background-color: black;
-	}
-
-	#books-container{
-		max-width: 90%;
-		background-color: white;
-		box-sizing: border-box;
-		border: 1px solid #f2f2f2;
-	}
-
-	#books-overview {	
-		padding: 20px 20% 0;
-	}
-
-	#top{
-		max-width: 40%;
-		margin: 4em 35% 40px 25%;
-	}
-
-	.books{
-		min-height: 250px;
-	}
-
-	.left{
-		float: left;
-		width: 38%;
-		margin: 0 3% 0 9%;
-	}
-
-	.right{
-		float: right;
-		width: 38%;
-		margin: 0 9% 0 3%;
 	}
 
 	/****
