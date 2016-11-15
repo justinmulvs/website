@@ -19,6 +19,9 @@
 		#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; max-width: 80%; margin: auto;}
 	</style>
 
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
 	<!-- Google Analytics Tracking-->
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
