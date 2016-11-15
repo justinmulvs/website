@@ -14,7 +14,6 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700|Lato:400,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Google Analytics Tracking-->
 	<script>
@@ -32,7 +31,7 @@
 
 		<div class="container-fluid">
 
-			<div class="row" id="header">
+			<div class="row" id="icons">
 				<div class="col-xs-12 text-right">
 					<a href="https://angel.co/justin-mulvaney" target="_blank"><img src="assets/images/al_icon.png" alt="AngelList Icon" class="al-icon"></a>
 					<a href="https://www.linkedin.com/in/justinmulvaney" target="_blank"><img src="assets/images/li_icon.png" alt="LinkedIn Icon" class="icon"></a>
