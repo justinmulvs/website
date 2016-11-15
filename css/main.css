@@ -109,13 +109,18 @@ PAGE:NOTES
 .book-summary {
 	padding: 0 5%;
 	border-bottom: 1px solid #555;
+	color: black;
 }
+
+.book-summary h1 {
+	color: black; }
 
 .notes {
 	font-family: Roboto;
 	max-width: 80%;
 	margin: auto;
 	padding-top: 2em;
+	color: black;
 }
 
 .notes img {
