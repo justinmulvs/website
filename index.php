@@ -45,8 +45,8 @@
 
 			<div class="row intro">
 				<div class="col-xs-12 text-center">
-					<h1>Justin Mulvaney</h1>
-					<h2>Growth | Data Analytics | Product Strategy</h2>
+					<h1 id="name">Justin Mulvaney</h1>
+					<h2 id="skills">GROWTH | DATA ANALYTICS | PRODUCT STRATEGY</h2>
 				</div>
 			</div>
 
