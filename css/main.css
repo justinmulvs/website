@@ -98,7 +98,8 @@ h4 {
 }
 
 #site-header h4 {
-	font-size: 14px;
+	font-size: 14
+	px;
 }
 
 #books-icons {
@@ -133,4 +134,67 @@ PAGE:NOTES
 
 .notes img {
 	max-width: 100%;
+}
+
+/****
+PAGE:LYFT
+****/
+
+#lyft {
+	background-color: #FF00BF;
+}
+
+#lyft-logo {
+	max-width: 1.75em;
+}
+
+/****
+PAGE:TROOPS
+****/
+
+#troops {
+	background-color: #29337B;
+}
+
+#troops h1 {
+	font-weight: 300;
+}
+
+#troops-logo {
+	max-width: 5em;
+	margin-left: 5px;
+}
+
+/****
+PAGE:COMPANY
+****/
+
+.company-top {
+	margin-top: 50px;
+}
+
+.greeting {
+	margin: 20px 0;
+	font-size: 16px;
+}
+
+.c-video {
+	margin-bottom: 30px;
+	max-width: 100%;
+}
+
+.company-icons {
+	margin: 20px 0 30px;
+}
+
+.c-al-icon {
+	height: 50px;
+	width: 40px;
+	margin: 0 10px;
+}
+
+.c-icon {
+	height: 50px;
+	width: 50px;
+	margin: 0 10px;
 }

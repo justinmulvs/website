@@ -40,7 +40,7 @@
 		<div class="row" id="site-header">
 			<div class="col-xs-12 col-sm-6">
 				<a href="index.php"><h3>Justin Mulvaney</h3>
-				<h4>GROWTH | DATA ANALYTICS | PRODUCT STRATEGY</h4></a>
+				<h4>GROWTH | DATA ANALYTICS | PRODUCT MARKETING</h4></a>
 			</div>
 
 			<div class="col-xs-12 col-sm-6" id="books-icons">

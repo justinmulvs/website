@@ -7,7 +7,7 @@
   <!-- Leave the above for bootstrap -->
 
 	<title>Home | Justin Mulvaney</title>
-	<meta name="description" content="Growth | Data Analytics | Product Strategy">
+	<meta name="description" content="Growth | Data Analytics | Product Marketing">
 	
 	<!--styles go here-->
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
@@ -46,7 +46,7 @@
 			<div class="row intro">
 				<div class="col-xs-12 text-center">
 					<h1 id="name">Justin Mulvaney</h1>
-					<h2 id="skills">GROWTH | DATA ANALYTICS | PRODUCT STRATEGY</h2>
+					<h2 id="skills">GROWTH | DATA ANALYTICS | PRODUCT MARKETING</h2>
 				</div>
 			</div>
 
