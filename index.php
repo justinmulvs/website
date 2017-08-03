@@ -52,7 +52,12 @@
 
 			<div class="row">
 				<div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3 text-center">
-					<h3 class="words">Previously worked Growth at <span id="crystal"><a href="https://www.crystalknows.com" target="_blank">Crystal</a></span>. Currently doing consulting. I blog <a href="http://www.justinmulvaney.com/blog">here</a> and share book notes <a href="books">here</a>.</h3>
+					<h3 class="words">
+					Currently doing data analytics at <a href="https://www.spacious.com/" target="_blank">Spacious</a>.<br>
+					Previously worked Growth at <span id="crystal"><a href="https://www.crystalknows.com" target="_blank">Crystal</a></span>.<br><br>
+					I have an always-in-progress manifesto on Growth that you can read <a href="https://medium.com/@justin.mulvaney/some-thoughts-on-growth-marketing-14fa0c9428a9" target="_blank">here</a>. I also <a href="http://www.justinmulvaney.com/blog">blog</a> and share <a href="books">book notes</a>.
+
+					</h3>
 				</div>
 			</div>	
 		</div>
