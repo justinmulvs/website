@@ -71,6 +71,14 @@ PAGE: HOME
 	line-height: 1.5em;
 }
 
+#spacious a {
+	color: #f5f459;
+}
+
+#spacious a:hover {
+	color: #3948C2;
+}
+
 #crystal a {
 	color: #43A2E8;
 }
