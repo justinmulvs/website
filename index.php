@@ -38,7 +38,6 @@
 				<div class="col-xs-12 text-right">
 					<a href="https://angel.co/justin-mulvaney" target="_blank"><img src="assets/images/al_icon.png" alt="AngelList Icon" class="al-icon"></a>
 					<a href="https://www.linkedin.com/in/justinmulvaney" target="_blank"><img src="assets/images/li_icon.png" alt="LinkedIn Icon" class="icon"></a>
-					<a href="https://twitter.com/justinmulvs" target="_blank"><img src="assets/images/twitter_icon.png" alt="Twitter Icon" class="icon"></a>
 					<a href="mailto:justin.mulvaney@gmail.com" target="_blank"><img src="assets/images/email_icon.png" alt="Email Icon" class="icon"></a>
 				</div>
 			</div>
