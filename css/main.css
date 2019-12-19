@@ -71,6 +71,14 @@ PAGE: HOME
 	line-height: 1.5em;
 }
 
+#ravti a {
+	color: #3D4094;
+}
+
+#ravti a:hover {
+	color: #61AB7D;
+}
+
 #spacious a {
 	color: #f5f459;
 }
