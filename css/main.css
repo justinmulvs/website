@@ -36,6 +36,11 @@ h4 {
 	font-weight: 300;
 }
 
+#header-icons {
+	margin-top: 15px;
+	text-align: center;
+}
+
 
 /*****
 PAGE: HOME
@@ -84,12 +89,28 @@ PAGE: HOME
 	color: #61AB7D;
 }
 
+#be a {
+	color: #1270E2;
+}
+
+#be a:hover {
+	color: #0059c4;
+}
+
 #spacious a {
 	color: #f5f459;
 }
 
 #spacious a:hover {
 	color: #3948C2;
+}
+
+#wework a {
+	color: white;
+}
+
+#wework a:hover {
+	color: black;
 }
 
 #crystal a {
@@ -129,10 +150,6 @@ h4 {
 #site-header h4 {
 	font-size: 14
 	px;
-}
-
-#books-icons {
-	margin-top: 15px;
 }
 
 .books-overview {
