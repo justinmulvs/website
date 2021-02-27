@@ -89,12 +89,28 @@ PAGE: HOME
 	color: #61AB7D;
 }
 
+#be a {
+	color: #1270E2;
+}
+
+#be a:hover {
+	color: #0059c4;
+}
+
 #spacious a {
 	color: #f5f459;
 }
 
 #spacious a:hover {
 	color: #3948C2;
+}
+
+#wework a {
+	color: white;
+}
+
+#wework a:hover {
+	color: black;
 }
 
 #crystal a {
