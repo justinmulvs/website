@@ -1,5 +1,9 @@
 @media screen and (min-width: 768px) {
 
+	#header-icons {
+		text-align: right;
+	}
+
 	/***
 	PAGE:BOOKS
 	***/
@@ -8,10 +12,6 @@
 		border-left: 1px solid grey;
 		border-right: 1px solid grey;
 		padding: 0 40px;
-	}
-
-	#books-icons {
-		text-align: right;
 	}
 
 }

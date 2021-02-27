@@ -36,6 +36,11 @@ h4 {
 	font-weight: 300;
 }
 
+#header-icons {
+	margin-top: 15px;
+	text-align: center;
+}
+
 
 /*****
 PAGE: HOME
@@ -129,10 +134,6 @@ h4 {
 #site-header h4 {
 	font-size: 14
 	px;
-}
-
-#books-icons {
-	margin-top: 15px;
 }
 
 .books-overview {
