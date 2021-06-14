@@ -1,7 +1,33 @@
 @media screen and (min-width: 768px) {
 
+	#header {
+		text-align: left;
+	}
+
+	#site-header {
+		padding-bottom: 10px;
+	}
+
 	#header-icons {
 		text-align: right;
+		margin-top: 25px;
+	}
+
+	.p-container {
+		margin-top: 0px;
+	}
+
+	#cohn-photo {
+		margin-top: 3%;
+	}
+
+	#about-photo-container {
+		text-align: right;
+	}
+
+	#about-photo {
+		width: 90%;
+		padding-top: 40px;
 	}
 
 	/***
@@ -15,14 +41,19 @@
 	}
 
 }
-@media screen AND (min-width: 970px) {
+@media screen AND (min-width: 990px) {
 
-	/***
-	PAGE: HOME
-	***/
+	#about-photo {
+		width: 70%;
+		padding-top: 5%;
+	}
 
-	#header {
-		margin-right: 20px;
+	#alr-testimonial {
+		margin-top: 2%;	
+	}
+
+	#cohn-photo {
+		margin-top: 0;
 	}
 
 	/****
@@ -42,5 +73,17 @@
 		background-color: white;
 		border: 1px solid #f2f2f2;
 		padding: 2em 20px;
+	}
+}
+
+@media screen AND (min-width: 1150px) {
+	#about-photo {
+		padding-top: 0;
+	}
+}
+
+@media screen AND (min-width: 1400px) {
+	#bio {
+		margin-top: 5%;
 	}
 }
