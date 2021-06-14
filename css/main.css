@@ -173,6 +173,7 @@ PAGE: HOME
 
 iframe {
     overflow: hidden;
+    max-width: 100%;
 }
 
 #ravti a {
