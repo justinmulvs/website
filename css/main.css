@@ -1,17 +1,31 @@
-
 /*****
 GENERAL STYLES
 *****/
 
-body {
-	background-color: black;
-	color: white;
+h1,
+h2,
+h3,
+h4
+	{
+	font-family: 'Lato';
 }
 
-p,
-ol,
-ul {
+p {
 	font-family: 'Roboto';
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight:700;
+}
+
+h3 {
+	font-weight: 300;
+}
+
+li {
+	margin-bottom: 10px;
 }
 
 a {
@@ -23,39 +37,61 @@ a:hover {
 	color: green;
 }
 
-h1,
-h2,
-h3,
-h4 {
-	font-family: 'Lato';
+.primary {
+	background: #fafafa;
+}
+
+.secondary {
+	background:  #5c6894;
+	color: white;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.highlight-primary {
+	color: orange;
+}
+
+.highlight-secondary {
+	color:  #5c6894;
+}
+
+/*****
+HEADER/FOOTER
+*****/
+
+#header {
+	background: black;
+	text-align: center;
+	font-weight: 700;
+}
+
+#site-header {
+	padding: 0 0 20px 15px;
+}
+
+#site-header a {
 	color: white;
 }
 
-.description {
-	font-size: .95em;
-	font-weight: 300;
+#site-header a:hover {
+	text-decoration: none;
 }
 
 #header-icons {
-	margin-top: 15px;
-	text-align: center;
+	margin-top: 10px;
 }
 
-
-/*****
-PAGE: HOME
-*****/
-
-#icons {
-	margin-top: 55px;
-	padding-right: 5px;
+.pad {
+	padding-top: 10px;
+	padding-bottom: 20px;
 }
 
-.al-icon {
+/*.al-icon {
 	height: 26px;
 	width: 20px;
 	margin: 0 5px;
-}
+}*/
 
 .icon {
 	height: 26px;
@@ -63,22 +99,81 @@ PAGE: HOME
 	margin: 0 5px;
 }
 
-.intro {
-	margin-top: 100px;
+#footer {
+	background: black;
+	padding-bottom: 20px;
 }
 
-#name {
-	font-size: 40px;
+#footer-icons {
+	margin-top: 20px;
 }
 
-#skills {
-	font-size: 24px;
+/*****
+PAGE: HOME
+*****/
+
+/*#hero {
+	background-image: url(../assets/images/test.jpeg);
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    width: 400px;
+    height: 400px;
+}*/
+
+.h1-container {
+	margin: 10px 0 20px;
 }
 
-.words {
-	font-size: 1.5em;
+#profile-photo {
+	border-radius: 10%;
+	width: 60%;
+	max-width: 350px;
+	border: 2px solid #ddd;
+}
+
+.light {
 	font-weight: 400;
-	line-height: 1.5em;
+}
+
+#about-photo {
+	width: 70%;
+	max-width: 600px;
+}
+
+.p-container {
+	background: white;
+	color: black;
+	padding: 10px ;
+	margin-top: 10px;
+	border: 2px solid #ddd;
+}
+
+.secondary-p-container {
+	background: white;
+	color: black;
+	padding: 10px;
+	margin-top: 20px;
+	border: 2px solid #ddd;
+}
+
+#alr-photo {
+	max-width: 100%;
+}
+
+#cohn-photo {
+	width: 100%;
+	max-width: 388px;
+}
+
+.testimonial-row {
+	margin-top: 50px;
+}
+
+iframe {
+    overflow: hidden;
+    max-width: 100%;
 }
 
 #ravti a {
@@ -121,36 +216,9 @@ PAGE: HOME
 	color: #2E6492;
 }
 
-/*****
-PAGE: COACHING
-*****/
-
-.coaching-intro {
-	margin-top: 80px;
-}
-
 /****
 PAGE:BOOKS
 ****/
-
-#site-header {
-	border-bottom: 2px solid white;
-	padding: 5px 0 10px;
-}
-
-#site-header a:hover {
-	text-decoration: none;
-}
-
-#site-header h3, 
-h4 {
-	margin: 1px 0;
-}
-
-#site-header h4 {
-	font-size: 14
-	px;
-}
 
 .books-overview {
 	margin-bottom: 20px;
