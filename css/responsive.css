@@ -21,6 +21,10 @@
 		margin-top: 3%;
 	}
 
+	#raw-photo {
+		margin-top: 15%;
+	}
+
 	#about-photo-container {
 		text-align: right;
 	}
@@ -53,6 +57,10 @@
 	}
 
 	#cohn-photo {
+		margin-top: 0;
+	}
+
+	#raw-photo {
 		margin-top: 0;
 	}
 
