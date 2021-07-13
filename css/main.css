@@ -16,7 +16,7 @@ p {
 }
 
 h1 {
-	font-size: 48px;
+	font-size: 44px;
 	font-weight:700;
 }
 
@@ -172,7 +172,6 @@ PAGE: HOME
 }
 
 iframe {
-    overflow: hidden;
     max-width: 100%;
 }
 
