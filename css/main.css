@@ -172,6 +172,11 @@ PAGE: HOME
 	max-width: 500px;
 }
 
+#meb-photo {
+	width: 100%;
+	max-width: 500px;
+}
+
 .testimonial-row {
 	margin-top: 50px;
 }

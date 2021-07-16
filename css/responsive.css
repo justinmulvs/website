@@ -25,6 +25,10 @@
 		margin-top: 15%;
 	}
 
+	#meb-photo {
+		margin-top: 15%;
+	}
+
 	#about-photo-container {
 		text-align: right;
 	}
@@ -61,6 +65,10 @@
 	}
 
 	#raw-photo {
+		margin-top: 0;
+	}
+
+	#meb-photo {
 		margin-top: 0;
 	}
 
