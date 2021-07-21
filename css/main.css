@@ -2,22 +2,19 @@
 GENERAL STYLES
 *****/
 
-h1,
-h2,
-h3,
-h4
-	{
-	font-family: 'Lato';
+h1, h2, h3, h4 {
+	font-family: 'Noto Sans KR', sans-serif;
 }
 
 p {
-	font-family: 'Roboto';
+	font-family: 'Noto Sans KR';
 	font-size: 18px;
+	font-weight: 300;
 }
 
 h1 {
 	font-size: 44px;
-	font-weight:700;
+	font-weight: 700;
 }
 
 h3 {
@@ -42,7 +39,7 @@ a:hover {
 }
 
 .secondary {
-	background:  #5c6894;
+	background: #5c6894;
 	color: white;
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
@@ -53,7 +50,7 @@ a:hover {
 }
 
 .highlight-secondary {
-	color:  #5c6894;
+	color: #5c6894;
 }
 
 /*****
@@ -112,6 +109,10 @@ HEADER/FOOTER
 PAGE: HOME
 *****/
 
+#hero {
+	overflow: hidden;
+}
+
 /*#hero {
 	background-image: url(../assets/images/test.jpeg);
 	background-repeat: no-repeat;
@@ -129,7 +130,7 @@ PAGE: HOME
 #profile-photo {
 	border-radius: 10%;
 	width: 60%;
-	max-width: 350px;
+	min-width: 350px;
 	border: 2px solid #ddd;
 }
 
@@ -145,7 +146,7 @@ PAGE: HOME
 .p-container {
 	background: white;
 	color: black;
-	padding: 10px ;
+	padding: 10px;
 	margin-top: 10px;
 	border: 2px solid #ddd;
 }
@@ -182,7 +183,7 @@ PAGE: HOME
 }
 
 iframe {
-    max-width: 100%;
+	max-width: 100%;
 }
 
 #ravti a {
@@ -245,7 +246,8 @@ PAGE:NOTES
 }
 
 .book-summary h1 {
-	color: black; }
+	color: black;
+}
 
 .notes {
 	font-family: Roboto;
@@ -320,4 +322,51 @@ PAGE:COMPANY
 	height: 50px;
 	width: 50px;
 	margin: 0 10px;
+}
+
+/* ALIGNMENT STYLES */
+
+.vertical-center {
+	min-height: 100%;
+	/* Fallback for browsers do NOT support vh unit */
+	min-height: 100vh;
+	/* These two lines are counted as one :-)       */
+	width: 100vw;
+	display: flex;
+	align-items: center;
+}
+
+.desktop-display {
+	display: block;
+}
+
+.mobile-display {
+	display: none;
+}
+
+/* FONT TRANSFORMATIONS */
+
+.font-change-handwritten-header {
+	padding-right: 8px;
+	font-family: 'Nothing You Could Do', cursive;
+}
+
+.font-change-handwritten {
+	padding-right: 8px;
+	font-family: 'Nothing You Could Do', cursive;
+}
+
+.font-change-bold {
+	font-weight: 900;
+	font-size: 8vw;
+}
+
+.header-text {
+	font-weight: 300;
+	font-size: 4vw;
+}
+
+.tagline {
+	font-weight: 100;
+	padding-top: 20px;
 }
