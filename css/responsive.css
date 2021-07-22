@@ -1,90 +1,70 @@
 @media screen and (min-width: 768px) {
-
 	#header {
 		text-align: left;
 	}
-
 	#site-header {
 		padding-bottom: 10px;
 	}
-
 	#header-icons {
 		text-align: right;
 		margin-top: 25px;
 	}
-
 	.p-container {
 		margin-top: 0px;
 	}
-
 	#cohn-photo {
 		margin-top: 3%;
 	}
-
 	#raw-photo {
 		margin-top: 15%;
 	}
-
 	#meb-photo {
 		margin-top: 15%;
 	}
-
 	#about-photo-container {
 		text-align: right;
 	}
-
 	#about-photo {
 		width: 90%;
 		padding-top: 40px;
 	}
-
 	/***
 	PAGE:BOOKS
 	***/
-
 	.books {
 		border-left: 1px solid grey;
 		border-right: 1px solid grey;
 		padding: 0 40px;
 	}
-
 }
-@media screen AND (min-width: 990px) {
 
+@media screen AND (min-width: 990px) {
 	#about-photo {
 		width: 70%;
 		padding-top: 5%;
 	}
-
 	#alr-testimonial {
-		margin-top: 2%;	
+		margin-top: 2%;
 	}
-
 	#cohn-photo {
 		margin-top: 0;
 	}
-
 	#raw-photo {
 		margin-top: 0;
 	}
-
 	#meb-photo {
 		margin-top: 0;
 	}
-
 	/****
 	PAGE:NOTES
 	****/
-
 	#notes {
 		background-color: #fafafa;
 	}
-
-	.book-summary{
-		 background-color: white;
-		 border-bottom: 1px solid #ddd;
+	.book-summary {
+		background-color: white;
+		border-bottom: 1px solid #ddd;
 	}
-
 	.notes {
 		background-color: white;
 		border: 1px solid #f2f2f2;
@@ -101,5 +81,39 @@
 @media screen AND (min-width: 1400px) {
 	#bio {
 		margin-top: 5%;
+	}
+}
+
+/* Weird stuff could probably fit in a diff media query but this is the only way I got it to work :shrug:*/
+
+@media screen AND (max-width: 800px) {
+	.fractal-container {
+		width: 300%;
+		margin-left: -50%;
+	}
+	.vertical-center {
+		flex-direction: column;
+	}
+	.header-text {
+		font-size: 10vw;
+	}
+	.font-change-bold {
+		font-size: 10vw;
+	}
+	#profile-photo {
+		margin-top: 40px;
+	}
+	.desktop-display {
+		display: none;
+	}
+	.mobile-display {
+		display: block;
+	}
+	.tagline {
+		padding: 20px;
+		text-align: center;
+	}
+	.font-change-bold {
+		font-size: 19vw;
 	}
 }

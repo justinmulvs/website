@@ -1,0 +1,82 @@
+/* FRACTAL ANIMATION */
+
+.fractal-container {
+    position: relative;
+    z-index: -1;
+    height: auto;
+    opacity: .6;
+}
+
+.fractal-container img {
+    display: block;
+}
+
+.fractal1 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    -webkit-animation: spin1 45s infinite linear;
+    -moz-animation: spin1 45s infinite linear;
+    -o-animation: spin1 45s infinite linear;
+    -ms-animation: spin1 45s infinite linear;
+    animation: spin1 45s infinite linear;
+}
+
+.fractal2 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    -webkit-animation: spin2 65s infinite linear;
+    -moz-animation: spin2 65s infinite linear;
+    -o-animation: spin2 65s infinite linear;
+    -ms-animation: spin2 65s infinite linear;
+    animation: spin2 65s infinite linear;
+}
+
+.fractal3 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    -webkit-animation: spin1 80s infinite linear;
+    -moz-animation: spin1 80s infinite linear;
+    -o-animation: spin1 80s infinite linear;
+    -ms-animation: spin1 80s infinite linear;
+    animation: spin1 80s infinite linear;
+}
+
+.fractal4 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    -webkit-animation: spin2 50s infinite linear;
+    -moz-animation: spin2 50s infinite linear;
+    -o-animation: spin2 50s infinite linear;
+    -ms-animation: spin2 50s infinite linear;
+    animation: spin2 50s infinite linear;
+}
+
+@keyframes spin1 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes spin2 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(-359deg);
+    }
+}
+
+.transparent {
+    background: transparent;
+}
