@@ -121,6 +121,7 @@ PAGE: HOME
 	border-radius: 10%;
 	width: 60%;
 	min-width: 350px;
+	max-width: 500px;
 	border: 2px solid #ddd;
 }
 
@@ -128,9 +129,26 @@ PAGE: HOME
 	font-weight: 400;
 }
 
+.testimonial-row {
+	margin: 50px 2% 0;
+	background: white;
+	color: black;
+	padding: 20px;
+	border: 2px solid #ddd;
+}
+
+.testimonial-photo {
+	width: 100%;
+	max-width: 500px;
+}
+
+.testimonial {
+	margin-top: 20px;
+}
+
 #about-photo {
 	width: 70%;
-	max-width: 600px;
+	max-width: 500px;
 }
 
 .secondary-p-container {
@@ -138,33 +156,6 @@ PAGE: HOME
 	color: black;
 	padding: 10px;
 	margin-top: 20px;
-	border: 2px solid #ddd;
-}
-
-#alr-photo {
-	max-width: 100%;
-}
-
-#cohn-photo {
-	width: 100%;
-	max-width: 388px;
-}
-
-#raw-photo {
-	width: 100%;
-	max-width: 500px;
-}
-
-#meb-photo {
-	width: 100%;
-	max-width: 500px;
-}
-
-.testimonial-row {
-	margin: 50px 2% 0;
-	background: white;
-	color: black;
-	padding: 10px;
 	border: 2px solid #ddd;
 }
 

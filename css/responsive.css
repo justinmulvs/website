@@ -38,6 +38,40 @@
 	}
 }
 
+/* Weird stuff could probably fit in a diff media query but this is the only way I got it to work :shrug:*/
+
+@media screen AND (max-width: 800px) {
+	.fractal-container {
+		width: 300%;
+		margin-left: -50%;
+	}
+	.vertical-center {
+		flex-direction: column;
+	}
+	.header-text {
+		font-size: 10vw;
+	}
+	.font-change-bold {
+		font-size: 10vw;
+	}
+	#profile-photo {
+		margin-top: 40px;
+	}
+	.desktop-display {
+		display: none;
+	}
+	.mobile-display {
+		display: block;
+	}
+	.tagline {
+		padding: 20px;
+		text-align: center;
+	}
+	.font-change-bold {
+		font-size: 19vw;
+	}
+}
+
 @media screen AND (min-width: 990px) {
 	#about-photo {
 		width: 70%;
@@ -82,38 +116,15 @@
 	#bio {
 		margin-top: 5%;
 	}
+
+	.testimonial-row {
+		/*margin: 50px 8% 0;*/
+	}
 }
 
-/* Weird stuff could probably fit in a diff media query but this is the only way I got it to work :shrug:*/
+@media screen AND (min-width: 1800px) {
 
-@media screen AND (max-width: 800px) {
-	.fractal-container {
-		width: 300%;
-		margin-left: -50%;
-	}
-	.vertical-center {
-		flex-direction: column;
-	}
-	.header-text {
-		font-size: 10vw;
-	}
-	.font-change-bold {
-		font-size: 10vw;
-	}
-	#profile-photo {
-		margin-top: 40px;
-	}
-	.desktop-display {
-		display: none;
-	}
-	.mobile-display {
-		display: block;
-	}
-	.tagline {
-		padding: 20px;
-		text-align: center;
-	}
-	.font-change-bold {
-		font-size: 19vw;
+	.testimonial-row {
+		margin: 50px 8% 0;
 	}
 }
