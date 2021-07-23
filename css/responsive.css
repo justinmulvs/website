@@ -12,15 +12,23 @@
 	.p-container {
 		margin-top: 0px;
 	}
+
+	#alr-photo {
+		margin-top: 10%;
+	}
+
 	#cohn-photo {
-		margin-top: 3%;
+		margin-top: 20%;
 	}
-	#raw-photo {
-		margin-top: 15%;
-	}
+
 	#meb-photo {
-		margin-top: 15%;
+		margin-top: 95%;
 	}
+
+	#raw-photo {
+		margin-top: 75%;
+	}
+
 	#about-photo-container {
 		text-align: right;
 	}
@@ -77,18 +85,27 @@
 		width: 70%;
 		padding-top: 5%;
 	}
+
+	#alr-photo {
+		margin-top: 0;
+	}
+
 	#alr-testimonial {
 		margin-top: 2%;
 	}
+
 	#cohn-photo {
-		margin-top: 0;
+		margin-top: 5%;
 	}
-	#raw-photo {
-		margin-top: 0;
-	}
+
 	#meb-photo {
-		margin-top: 0;
+		margin-top: 48%;
 	}
+
+	#raw-photo {
+		margin-top: 33%;
+	}
+
 	/****
 	PAGE:NOTES
 	****/
@@ -106,10 +123,25 @@
 	}
 }
 
-@media screen AND (min-width: 1150px) {
+@media screen AND (min-width: 1200px) {
+	
+	#cohn-photo {
+		margin-top: 0;
+	}
+
+	#meb-photo {
+		margin-top: 8%;
+	}
+
+	#raw-photo {
+		margin-top: 6%;
+	}
+
 	#about-photo {
 		padding-top: 0;
 	}
+
+
 }
 
 @media screen AND (min-width: 1400px) {
@@ -117,8 +149,12 @@
 		margin-top: 5%;
 	}
 
-	.testimonial-row {
-		/*margin: 50px 8% 0;*/
+	#meb-photo {
+		margin-top: 20px;
+	}
+
+	#raw-photo {
+		margin-top: 20px;
 	}
 }
 
@@ -126,5 +162,13 @@
 
 	.testimonial-row {
 		margin: 50px 8% 0;
+	}
+
+	#meb-photo {
+		margin-top: 0;
+	}
+
+	#raw-photo {
+		margin-top: 0;
 	}
 }
