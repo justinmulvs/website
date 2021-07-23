@@ -113,16 +113,6 @@ PAGE: HOME
 	overflow: hidden;
 }
 
-/*#hero {
-	background-image: url(../assets/images/test.jpeg);
-	background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    max-width: 100%;
-    width: 400px;
-    height: 400px;
-}*/
-
 .h1-container {
 	margin: 10px 0 20px;
 }
@@ -141,14 +131,6 @@ PAGE: HOME
 #about-photo {
 	width: 70%;
 	max-width: 600px;
-}
-
-.p-container {
-	background: white;
-	color: black;
-	padding: 10px;
-	margin-top: 10px;
-	border: 2px solid #ddd;
 }
 
 .secondary-p-container {
@@ -179,7 +161,11 @@ PAGE: HOME
 }
 
 .testimonial-row {
-	margin-top: 50px;
+	margin: 50px 2% 0;
+	background: white;
+	color: black;
+	padding: 10px;
+	border: 2px solid #ddd;
 }
 
 iframe {
