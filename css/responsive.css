@@ -12,15 +12,23 @@
 	.p-container {
 		margin-top: 0px;
 	}
+
+	#alr-photo {
+		margin-top: 10%;
+	}
+
 	#cohn-photo {
-		margin-top: 3%;
+		margin-top: 20%;
 	}
-	#raw-photo {
-		margin-top: 15%;
-	}
+
 	#meb-photo {
-		margin-top: 15%;
+		margin-top: 95%;
 	}
+
+	#raw-photo {
+		margin-top: 75%;
+	}
+
 	#about-photo-container {
 		text-align: right;
 	}
@@ -35,52 +43,6 @@
 		border-left: 1px solid grey;
 		border-right: 1px solid grey;
 		padding: 0 40px;
-	}
-}
-
-@media screen AND (min-width: 990px) {
-	#about-photo {
-		width: 70%;
-		padding-top: 5%;
-	}
-	#alr-testimonial {
-		margin-top: 2%;
-	}
-	#cohn-photo {
-		margin-top: 0;
-	}
-	#raw-photo {
-		margin-top: 0;
-	}
-	#meb-photo {
-		margin-top: 0;
-	}
-	/****
-	PAGE:NOTES
-	****/
-	#notes {
-		background-color: #fafafa;
-	}
-	.book-summary {
-		background-color: white;
-		border-bottom: 1px solid #ddd;
-	}
-	.notes {
-		background-color: white;
-		border: 1px solid #f2f2f2;
-		padding: 2em 20px;
-	}
-}
-
-@media screen AND (min-width: 1150px) {
-	#about-photo {
-		padding-top: 0;
-	}
-}
-
-@media screen AND (min-width: 1400px) {
-	#bio {
-		margin-top: 5%;
 	}
 }
 
@@ -115,5 +77,98 @@
 	}
 	.font-change-bold {
 		font-size: 19vw;
+	}
+}
+
+@media screen AND (min-width: 990px) {
+	#about-photo {
+		width: 70%;
+		padding-top: 5%;
+	}
+
+	#alr-photo {
+		margin-top: 0;
+	}
+
+	#alr-testimonial {
+		margin-top: 2%;
+	}
+
+	#cohn-photo {
+		margin-top: 5%;
+	}
+
+	#meb-photo {
+		margin-top: 48%;
+	}
+
+	#raw-photo {
+		margin-top: 33%;
+	}
+
+	/****
+	PAGE:NOTES
+	****/
+	#notes {
+		background-color: #fafafa;
+	}
+	.book-summary {
+		background-color: white;
+		border-bottom: 1px solid #ddd;
+	}
+	.notes {
+		background-color: white;
+		border: 1px solid #f2f2f2;
+		padding: 2em 20px;
+	}
+}
+
+@media screen AND (min-width: 1200px) {
+	
+	#cohn-photo {
+		margin-top: 0;
+	}
+
+	#meb-photo {
+		margin-top: 8%;
+	}
+
+	#raw-photo {
+		margin-top: 6%;
+	}
+
+	#about-photo {
+		padding-top: 0;
+	}
+
+
+}
+
+@media screen AND (min-width: 1400px) {
+	#bio {
+		margin-top: 5%;
+	}
+
+	#meb-photo {
+		margin-top: 20px;
+	}
+
+	#raw-photo {
+		margin-top: 20px;
+	}
+}
+
+@media screen AND (min-width: 1800px) {
+
+	.testimonial-row {
+		margin: 50px 8% 0;
+	}
+
+	#meb-photo {
+		margin-top: 0;
+	}
+
+	#raw-photo {
+		margin-top: 0;
 	}
 }

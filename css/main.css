@@ -39,7 +39,7 @@ a:hover {
 }
 
 .secondary {
-	background: #5c6894;
+	background: #253031;
 	color: white;
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
@@ -50,7 +50,7 @@ a:hover {
 }
 
 .highlight-secondary {
-	color: #5c6894;
+	color: #253031;
 }
 
 /*****
@@ -58,7 +58,7 @@ HEADER/FOOTER
 *****/
 
 #header {
-	background: black;
+	background: #253031;
 	text-align: center;
 	font-weight: 700;
 }
@@ -113,16 +113,6 @@ PAGE: HOME
 	overflow: hidden;
 }
 
-/*#hero {
-	background-image: url(../assets/images/test.jpeg);
-	background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    max-width: 100%;
-    width: 400px;
-    height: 400px;
-}*/
-
 .h1-container {
 	margin: 10px 0 20px;
 }
@@ -131,6 +121,7 @@ PAGE: HOME
 	border-radius: 10%;
 	width: 60%;
 	min-width: 350px;
+	max-width: 500px;
 	border: 2px solid #ddd;
 }
 
@@ -138,17 +129,26 @@ PAGE: HOME
 	font-weight: 400;
 }
 
-#about-photo {
-	width: 70%;
-	max-width: 600px;
-}
-
-.p-container {
+.testimonial-row {
+	margin: 50px 2% 0;
 	background: white;
 	color: black;
-	padding: 10px;
-	margin-top: 10px;
+	padding: 20px;
 	border: 2px solid #ddd;
+}
+
+.testimonial-photo {
+	width: 100%;
+	max-width: 500px;
+}
+
+.testimonial {
+	margin-top: 20px;
+}
+
+#about-photo {
+	width: 70%;
+	max-width: 500px;
 }
 
 .secondary-p-container {
@@ -157,29 +157,6 @@ PAGE: HOME
 	padding: 10px;
 	margin-top: 20px;
 	border: 2px solid #ddd;
-}
-
-#alr-photo {
-	max-width: 100%;
-}
-
-#cohn-photo {
-	width: 100%;
-	max-width: 388px;
-}
-
-#raw-photo {
-	width: 100%;
-	max-width: 500px;
-}
-
-#meb-photo {
-	width: 100%;
-	max-width: 500px;
-}
-
-.testimonial-row {
-	margin-top: 50px;
 }
 
 iframe {
