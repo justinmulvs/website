@@ -13,7 +13,7 @@
 		margin-top: 0px;
 	}
 
-	#alr-photo {
+	/* #alr-photo {
 		margin-top: 10%;
 	}
 
@@ -27,7 +27,7 @@
 
 	#raw-photo {
 		margin-top: 75%;
-	}
+	} */
 
 	#about-photo-container {
 		text-align: right;
@@ -86,11 +86,11 @@
 		padding-top: 5%;
 	}
 
-	#alr-photo {
+	/* #alr-photo {
 		margin-top: 0;
-	}
+	} */
 
-	#alr-testimonial {
+	/* #alr-testimonial {
 		margin-top: 2%;
 	}
 
@@ -104,7 +104,7 @@
 
 	#raw-photo {
 		margin-top: 33%;
-	}
+	} */
 
 	/****
 	PAGE:NOTES
@@ -125,7 +125,7 @@
 
 @media screen AND (min-width: 1200px) {
 	
-	#cohn-photo {
+	/* #cohn-photo {
 		margin-top: 0;
 	}
 
@@ -139,7 +139,7 @@
 
 	#about-photo {
 		padding-top: 0;
-	}
+	} */
 
 
 }
@@ -148,14 +148,14 @@
 	#bio {
 		margin-top: 5%;
 	}
-
+/* 
 	#meb-photo {
 		margin-top: 20px;
 	}
 
 	#raw-photo {
 		margin-top: 20px;
-	}
+	} */
 }
 
 @media screen AND (min-width: 1800px) {
@@ -170,5 +170,32 @@
 
 	#raw-photo {
 		margin-top: 0;
+	}
+}
+
+
+/* TESTIMONIALS AND FLEX MEDIA QUERY */
+@media screen AND (max-width: 900px) {
+	.flex-container {
+		flex-direction: column;
+		width:100%;
+	}
+	.image-right {
+		order:0;
+	}
+	.offset-right {
+		margin-left: 0;
+	}
+	.offset-left {
+		margin-right: 0;
+	}
+	.image-right {
+		margin-left: 0px;
+	}
+	.image-left {
+		margin-right: 0px;
+	}
+	.testimonial-photo {
+		max-width: 100%;
 	}
 }

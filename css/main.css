@@ -19,6 +19,7 @@ h1 {
 
 h3 {
 	font-weight: 300;
+	padding: 0 15px;
 }
 
 li {
@@ -130,7 +131,8 @@ PAGE: HOME
 }
 
 .testimonial-row {
-	margin: 50px 2% 0;
+	margin: 40px auto;
+	border-radius: 10px;
 	background: white;
 	color: black;
 	padding: 20px;
@@ -138,8 +140,8 @@ PAGE: HOME
 }
 
 .testimonial-photo {
-	width: 100%;
-	max-width: 500px;
+	border-radius: 10px;
+	max-width: 350px;
 }
 
 .testimonial {
@@ -346,4 +348,40 @@ PAGE:COMPANY
 .tagline {
 	font-weight: 100;
 	padding-top: 20px;
+}
+
+/* FLEX & TESTIMONIAL CSS*/
+
+.flex-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	justify-items: center;
+}
+
+.image-right {
+	order: 2;
+	margin-right: 0px;
+	margin-left: 40px;
+}
+
+.image-left {
+	margin-right: 40px;
+}
+
+.fit {
+	width: fit-content;
+}
+
+.offset-left  {
+	margin-right: 80px; 
+}
+
+.offset-right  {
+	margin-left: 80px; 
+}
+
+.center-div{
+	margin: auto;
+	max-width: 1200px;
 }
