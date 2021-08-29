@@ -130,7 +130,6 @@ PAGE: HOME
 #profile-photo {
 	border-radius: 100%;
 	width: 100%;
-	min-width: 350px;
 	max-width: 475px;
 	padding: 40px;
 	border: 3px solid #ddd;
@@ -138,8 +137,8 @@ PAGE: HOME
 
 #about-photo {
 	border-radius: 100%;
-	min-width: 350px;
-	width: 475px;
+	width: 100%;
+	max-width: 475px;
 	padding: 40px;
 	border: 2px solid #fff;
 }
