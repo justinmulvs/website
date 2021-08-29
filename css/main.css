@@ -15,8 +15,8 @@ p{
 }
 
 .bigp {
-	font-size: 24px;
-	line-height: 4rem;
+	font-size: 22px;
+	line-height: 3.5rem;
 	font-weight: 300;
 	font-family: 'Noto Sans KR', sans-serif;
 }
@@ -130,16 +130,16 @@ PAGE: HOME
 #profile-photo {
 	border-radius: 100%;
 	width: 100%;
-	min-width: 300px;
-	max-width: 600px;
+	min-width: 350px;
+	max-width: 475px;
 	padding: 40px;
 	border: 3px solid #ddd;
 }
 
 #about-photo {
 	border-radius: 100%;
-	min-width: 300px;
-	width: 600px;
+	min-width: 350px;
+	width: 475px;
 	padding: 40px;
 	border: 2px solid #fff;
 }

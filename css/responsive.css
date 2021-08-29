@@ -108,6 +108,7 @@
 @media screen AND (min-width: 1400px) {
 	#bio{
 		margin-left: 80px;
+		padding-right: 50px;
 	}
 /* 
 	#meb-photo {
@@ -121,7 +122,7 @@
 
 @media screen AND (max-width: 1800px) {
 	.header-text {
-		line-height:200px;
+		line-height:90px;
 	}
 
 	#meb-photo {
