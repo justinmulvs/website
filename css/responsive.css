@@ -13,7 +13,7 @@
 		margin-top: 0px;
 	}
 
-	#alr-photo {
+	/* #alr-photo {
 		margin-top: 10%;
 	}
 
@@ -27,14 +27,10 @@
 
 	#raw-photo {
 		margin-top: 75%;
-	}
+	} */
 
 	#about-photo-container {
 		text-align: right;
-	}
-	#about-photo {
-		width: 90%;
-		padding-top: 40px;
 	}
 	/***
 	PAGE:BOOKS
@@ -48,49 +44,14 @@
 
 /* Weird stuff could probably fit in a diff media query but this is the only way I got it to work :shrug:*/
 
-@media screen AND (max-width: 800px) {
-	.fractal-container {
-		width: 300%;
-		margin-left: -50%;
-	}
-	.vertical-center {
-		flex-direction: column;
-	}
-	.header-text {
-		font-size: 10vw;
-	}
-	.font-change-bold {
-		font-size: 10vw;
-	}
-	#profile-photo {
-		margin-top: 40px;
-	}
-	.desktop-display {
-		display: none;
-	}
-	.mobile-display {
-		display: block;
-	}
-	.tagline {
-		padding: 20px;
-		text-align: center;
-	}
-	.font-change-bold {
-		font-size: 19vw;
-	}
-}
 
 @media screen AND (min-width: 990px) {
-	#about-photo {
-		width: 70%;
-		padding-top: 5%;
-	}
-
-	#alr-photo {
+	
+	/* #alr-photo {
 		margin-top: 0;
-	}
+	} */
 
-	#alr-testimonial {
+	/* #alr-testimonial {
 		margin-top: 2%;
 	}
 
@@ -104,7 +65,7 @@
 
 	#raw-photo {
 		margin-top: 33%;
-	}
+	} */
 
 	/****
 	PAGE:NOTES
@@ -125,7 +86,7 @@
 
 @media screen AND (min-width: 1200px) {
 	
-	#cohn-photo {
+	/* #cohn-photo {
 		margin-top: 0;
 	}
 
@@ -139,36 +100,149 @@
 
 	#about-photo {
 		padding-top: 0;
-	}
+	} */
 
 
 }
 
 @media screen AND (min-width: 1400px) {
-	#bio {
-		margin-top: 5%;
+	#bio{
+		margin-left: 80px;
 	}
-
+/* 
 	#meb-photo {
 		margin-top: 20px;
 	}
 
 	#raw-photo {
 		margin-top: 20px;
+	} */
+}
+
+@media screen AND (max-width: 1800px) {
+	.header-text {
+		line-height:200px;
+	}
+
+	#meb-photo {
+		margin-top: 0;
+	}
+
+	#raw-photo {
+		margin-top: 0;
 	}
 }
 
-@media screen AND (min-width: 1800px) {
 
-	.testimonial-row {
-		margin: 50px 8% 0;
+/* TESTIMONIALS AND FLEX MEDIA QUERY */
+@media screen AND (max-width: 1400px) {
+
+	.fractal-container {
+		width: 300%;
+		margin-left: -50%;
 	}
 
-	#meb-photo {
-		margin-top: 0;
+	.header-text {
+		font-size: 6vw;
+		line-height: 10vw;
+	}
+	
+	#profile-photo {
+		margin-top: 40px;
+	}
+	.desktop-display {
+		display: none;
+	}
+	.mobile-display {
+		display: block;
+	}
+	.tagline {
+		padding: 20px;
+		text-align: center;
+	}
+	.font-change-bold {
+		font-size: 10vw;
+	}
+	.flex-container {
+		flex-direction: column;
+		width:100%;
+	}
+	.flex-about {
+		flex-direction: column;
+		max-width:100%;
+		padding: 40px;
+		margin-top: 40px;
 	}
 
-	#raw-photo {
-		margin-top: 0;
+	.vertical-center {
+		flex-direction: column;
+	}
+	#about-photo {
+		margin-bottom: 40px;
+	}
+	.image-right {
+		order:0;
+	}
+	.offset-right {
+		margin-left: 0px;
+	}
+	.offset-left {
+		margin-right: 0px;
+	}
+	.image-right {
+		margin-left: 0px;
+	}
+	.image-left {
+		margin-right: 0px;
+	}
+
+	.row {
+		margin: 0;
+	}
+	.testimonial-photo {
+		max-width: 300px;
+		margin-bottom: 24px;
+	}
+	#about-photo {
+		max-width: 300px;
+	}
+	#profile-photo{
+		max-width: 300px;
+	}
+	.bigp {
+		font-size: 20px;
+		line-height: 3.5rem;
+	}
+
+	.flex-about {
+		padding: 20px;
+	}
+
+	.align-middle {
+		padding: 0;
+	}
+	
+	#submit {
+		width: 100%;
+	}
+}
+@media screen AND (max-width: 800px) {
+	.header-text{
+		font-size: 10vw;
+		line-height:15vw;
+	}
+	.font-change-bold {
+		font-size: 19vw;
+	}
+
+	label {
+		text-align: left;
+	}
+	
+}
+
+@media screen and (min-width: 320px) {
+	.light {
+		font-size: 40px
 	}
 }

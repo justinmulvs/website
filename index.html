@@ -17,7 +17,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link
-		href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Noto+Sans+KR:wght@100;300;400;900&display=swap"
+		href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Noto+Sans+KR:wght@100;300;400;500;900&display=swap"
 		rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
@@ -42,6 +42,7 @@
 		ga('create', 'UA-61235697-2', 'auto');
 		ga('send', 'pageview');
 	</script>
+	<script src="./js/form.js" async></script> 
 </head>
 
 <body id="homepage">
@@ -75,7 +76,7 @@
 			<img src="./assets/images/fractal4.png" alt="fractal bg4" class="img-fluid fractal4" />
 		</div>
 		<div class="row vertical-center">
-			<div class="col-md-6 col-sm-12 text-center">
+			<div class="col-md-8 col-sm-12 text-center">
 				<h1 class="header-text"><span class="font-change-handwritten-header">P</span>eak <span
 						class="font-change-handwritten-header">P</span>erformance <br /> <span
 						class="font-change-bold">Coaching</span></h1>
@@ -97,181 +98,277 @@
 
 	<div class="container-fluid secondary pad">
 		<div class="row">
-			<div class="col-xs-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 text-center">
-				<h3>Driven by a core belief that any pursuit is, at heart, about the individual on their path to
+			<div class="col-xs-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+				<p class="bigp">Driven by a core belief that any pursuit is, at heart, about the individual on their path to
 					self-actualization, I work with clients on simultaneously improving results and fulfillment in their
-					line of work.</h3>
+					line of work.</p>
 			</div>
 		</div>
 
 		<div class="row pad">
 			<div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
-				<h3><b>Focuses include</b>:</h3>
-				<h3>
-					<ul>
+				<p class="bigp"><b>Focuses include</b>:</p>
+				<p class="bigp">
+					<ul class="bigp"> 
 						<li>Strength & Blindspot Identification</li>
 						<li>Mindset & Performance Psychology</li>
 						<li>Vision, Goal-Setting, & Clarity of Direction</li>
 						<li>Habit Development & Process Orientation</li>
 						<li>Leadership & Culture Development</li>
 					</ul>
-				</h3>
+				</p>
 			</div>
 		</div>
 
 		<div class="row">
-			<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 text-center">
-				<h3>Want to learn more? Read my <a
+			<div class="col-xs-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+				<p class="bigp">Want to learn more? Read my <a
 						href="https://www.notion.so/Philosophy-Process-v3-0-124461eb9c844ea8af378218c210c59a"
 						target="_blank">Philosophy & Process</a> and <a
 						href="https://www.notion.so/Principles-Layers-of-Work-v1-4-2b69b897c7574cce8da83c9a19634f0d"
-						target="_blank">Principles & Layers of Work</a>.</h3>
-				<h3><b>Interested? Fill out this short <a href="https://forms.gle/Z82nmrSgKM1AQhnGA"
-							target="_blank">intake form</a> so we can connect.</b></h3>
+						target="_blank">Principles & Layers of Work</a>.</p>
+				<p class="bigp"><b>Interested? Fill out this short <a href="https://forms.gle/Z82nmrSgKM1AQhnGA"
+							target="_blank">intake form</a> so we can connect.</b></p>
 			</div>
 		</div>
 	</div>
 
 	<div class="container-fluid pad primary">
-		<div class="row text-center h1-container">
-			<div class="col-xs-12">
-				<h1 class="light">Testimonials</h1>
+		<div class="center-div">
+			<div class="row text-center h1-container">
+				<div class="col-xs-12">
+					<h1 class="light">Client <span class="font-change-handwritten-header">Endorsements</span></h1>
+				</div>
+			</div>
+			<div class="flex-container">
+				<div class="text-center image-left fit">
+					<img src="./assets/images/alr_headshot.png" class="testimonial-photo" id="alr-photo">
+				</div>
+				<div class="row testimonial-row offset-left">
+					<div class="testimonial" id="alr-testimonial">
+						<p>"Justin has been a critical resource at pivotal times in my career. <b>Justin was a linchpin
+								in both
+								the strategy and execution of successful fundraises all the way through the sale of our
+								software
+								business.</b><br><br>
+							He is special because he leads with an analytical approach, but pairs it well with his
+							empathy and
+							understanding of real-world application."<br><br>
+							-<a href="https://www.linkedin.com/in/alexrangel/" target="_blank">Alex Rangel</a>,
+							Co-founder & CEO
+							of <span id="ravti"><a href="https://www.buildingengines.com/company/ravti/"
+									target="_blank">Ravti</a></span>, Acquired by <a
+								href="https://www.buildingengines.com/" target="_blank">Building Engines</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="flex-container">
+				<div class="text-center image-right fit">
+					<img src="./assets/images/cohn_headshot.jpg" class="testimonial-photo" id="cohn-photo">
+				</div>
+				<div class="row testimonial-row offset-right">
+					<div class="testimonial" id="alr-testimonial">
+						<p>"<b>I've worked with a few different coaches over the years, but none have helped me find
+								clarity in
+								what's most important like Justin.</b> I look forward to our sessions each Sunday, as
+							they're
+							insanely helpful for getting my head right for the week ahead.
+							<br><br>Justin's constant good energy, understanding of how to build habits, and deep
+							empathy have
+							combined to make this <b>the most impactful coaching relationship I've ever
+								had.</b>"<br><br>
+							-<a href="https://www.linkedin.com/in/aaroncohn/" target="_blank">Aaron Cohn</a>, Head of
+							Community
+							at <a href="https://www.a.team/join" target="_blank">A.Team</a></span> and Organizer of <a
+								href="https://foundersfridaynyc.com/" target="_blank">Founder's Friday NYC</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="flex-container">
+				<div class="text-center image-left fit">
+					<img src="./assets/images/meb_headshot.jpeg" class="testimonial-photo" id="meb-photo">
+				</div>
+				<div class="row testimonial-row offset-left">
+					<div class="testimonial">
+						<p>"Justin’s coaching has been invaluable to me and my business. One of the most pivotal aspects
+							has been
+							Justin’s ability to walk the line of gentle but earnest guidance and encouragement while
+							still
+							giving me full ownership of my process. I feel immense pride and accomplishment in all the
+							progress
+							that I make with his support as a partner.<br><br>
+							In the moments when I’m at a growth edge and it is compounding in rapid succession, it
+							doesn’t
+							always feel like growth because inevitably, it’s entirely unfamiliar territory. This can be
+							incredibly disorienting, and <b>Justin’s guidance along the edge of it, keeping it in
+								perspective
+								along the path, allows me to accelerate so much faster since I’m no longer wasting time
+								and
+								energy wondering if I’m moving in the right direction.</b><br><br>
+							<b>I can trust Justin’s broader perspective, trust the goals we have set together, and trust
+								that
+								all the little moments of uncertainty are actually right where I need to be. It all
+								comes
+								together to create more growth in my personal process and business than I have ever
+								experienced
+								working alone, or in any other capacity.</b> I cannot possibly recommend working with
+							him highly
+							enough."<br><br>
+							- Molly Bennett</a>, Solopreneur, Fajardo Method Practitioner
+					</div>
+				</div>
+			</div>
+			<div class="flex-container">
+				<div class="text-center image-right fit">
+					<img src="./assets/images/raw_headshot.png" class="testimonial-photo" id="raw-photo">
+				</div>
+				<div class="row testimonial-row offset-right">
+
+					<div class="testimonial">
+						<p><b>"Since I started with Justin about six months ago, my revenue has nearly doubled.</b> He
+							did this
+							by expertly helping me remove physical and mental blockers that I didn’t even know I had to
+							make
+							room for smart decisions to move my income upward. The best part is, at the same time, <b>he
+								made
+								sure my decision-making fundamentally resonated with who I am as a person.</b><br><br>
+							Justin sees the moving parts in my personal life as one-and-the-same as the moving parts in
+							my
+							business. He constantly helps me address that difficult work-life imbalance often associated
+							with
+							being a Solopreneur.<br><br>
+							<b>His unique approach beautifully balances psychological and emotional awareness with
+								hard-hitting
+								strategy and clarity of direction.</b> When working with Justin, no stone will go
+							unturned no
+							matter the shape or size. Yet, he will make this seemingly arduous and overwhelming process
+							of doing
+							so unbelievably invigorating, positive, and comfortable."<br><br>
+							-<a href="https://www.aaronwaltersmusic.com/" target="_blank">Aaron Walters</a>,
+							Solopreneur,
+							Producer, Composer, Live + Studio Musician
+					</div>
+				</div>
+			</div>
 			</div>
 		</div>
 
-		<div class="row testimonial-row">
-			<div class="col-xs-12 col-sm-5 col-lg-4 text-center">
-				<img src="./assets/images/alr_headshot.png" class="testimonial-photo" id="alr-photo">
+		<div class="container-fluid secondary pad">
+			<div class="row text-center h1-container">
+				<div class="col-xs-12">
+					<h1 class="light">About <span class="font-change-handwritten-header">Me</span></h1>
+				</div>
 			</div>
-			<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-lg-7 col-lg-offset-0 testimonial"
-				id="alr-testimonial">
-				<p>"Justin has been a critical resource at pivotal times in my career. <b>Justin was a linchpin in both
-						the strategy and execution of successful fundraises all the way through the sale of our software
-						business.</b><br><br>
-
-					He is special because he leads with an analytical approach, but pairs it well with his empathy and
-					understanding of real-world application."<br><br>
-
-					-<a href="https://www.linkedin.com/in/alexrangel/" target="_blank">Alex Rangel</a>, Co-founder & CEO
-					of <span id="ravti"><a href="https://www.buildingengines.com/company/ravti/"
-							target="_blank">Ravti</a></span>, Acquired by <a href="https://www.buildingengines.com/"
-						target="_blank">Building Engines</a></p>
+			<div class="row flex-about">
+				<div class="col-md-6 col-sm-12 text-center my-auto">
+					<img class="img-fluid" src="assets/images/About.png" alt="Picture of Justin Mulvaney"
+						id="about-photo">
+				</div>
+				<div class="about-me" id="bio">
+					<p class="bigp">I've made a career out of supporting world-class entrepreneurs and leaders. I started working at
+						my
+						family's business at the age of 12. My first job out of college was employee #3 at a <span
+							id="crystal"><a href="https://www.crystalknows.com/" target="_blank">fast-growing tech
+								startup</a></span>. After that, I never joined a company later than employee #10. I've
+						led
+						the product and data side of an <span id="ravti"><a
+								href="https://www.buildingengines.com/company/newsroom/building-engines-acquires-ravti/"
+								target="_blank">acquisition</a></span>, run data for a <a
+							href="https://blog.spacious.com/spacious-closes-9m-series-a-to-add-100-locations-retail-flagships-98b4f153c4d6"
+							target="_blank">$9M fundraise</a>, and supported C-level leaders in every department of the
+						modern tech org.<br><br>
+						Those supporting roles led me to my passion for coaching and the decision to become an
+						entrepreneur.<br><br>
+						As a coach, I've worked with clients in NYC, Nashville, and Boston. I've helped solopreneurs
+						grow
+						their income by 50%. I've supported founders through fundraises and acquisitions. And I've
+						helped
+						burgeoning leaders grow into their full potential.</p>
+				</div>
 			</div>
-		</div>
-
-		<div class="row testimonial-row">
-			<div class="col-xs-12 col-sm-5 col-lg-4 text-center">
-				<img src="./assets/images/cohn_headshot.jpg" class="testimonial-photo" id="cohn-photo">
-			</div>
-			<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-lg-7 col-lg-offset-0 testimonial"
-				id="alr-testimonial">
-				<p>"<b>I've worked with a few different coaches over the years, but none have helped me find clarity in
-						what's most important like Justin.</b> I look forward to our sessions each Sunday, as they're
-					insanely helpful for getting my head right for the week ahead.
-
-					<br><br>Justin's constant good energy, understanding of how to build habits, and deep empathy have
-					combined to make this <b>the most impactful coaching relationship I've ever had.</b>"<br><br>
-
-					-<a href="https://www.linkedin.com/in/aaroncohn/" target="_blank">Aaron Cohn</a>, Head of Community
-					at <a href="https://www.a.team/join" target="_blank">A.Team</a></span> and Organizer of <a
-						href="https://foundersfridaynyc.com/" target="_blank">Founder's Friday NYC</a>
-				</p>
-			</div>
-		</div>
-
-		<div class="row testimonial-row">
-			<div class="col-xs-12 col-sm-5 col-lg-4 text-center">
-				<img src="./assets/images/meb_headshot.jpeg" class="testimonial-photo" id="meb-photo">
-			</div>
-			<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-lg-7 col-lg-offset-0 testimonial">
-				<p>"Justin’s coaching has been invaluable to me and my business. One of the most pivotal aspects has been
-					Justin’s ability to walk the line of gentle but earnest guidance and encouragement while still
-					giving me full ownership of my process. I feel immense pride and accomplishment in all the progress
-					that I make with his support as a partner.<br><br>
-
-					In the moments when I’m at a growth edge and it is compounding in rapid succession, it doesn’t
-					always feel like growth because inevitably, it’s entirely unfamiliar territory. This can be
-					incredibly disorienting, and <b>Justin’s guidance along the edge of it, keeping it in perspective
-						along the path, allows me to accelerate so much faster since I’m no longer wasting time and
-						energy wondering if I’m moving in the right direction.</b><br><br>
-
-					<b>I can trust Justin’s broader perspective, trust the goals we have set together, and trust that
-						all the little moments of uncertainty are actually right where I need to be. It all comes
-						together to create more growth in my personal process and business than I have ever experienced
-						working alone, or in any other capacity.</b> I cannot possibly recommend working with him highly
-					enough."<br><br>
-
-					- Molly Bennett</a>, Solopreneur, Fajardo Method Practitioner
-			</div>
-		</div>
-
-		<div class="row testimonial-row">
-			<div class="col-xs-12 col-sm-5 col-lg-4 text-center">
-				<img src="./assets/images/raw_headshot.png" class="testimonial-photo" id="raw-photo">
-			</div>
-			<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 col-lg-7 col-lg-offset-0 testimonial">
-				<p><b>"Since I started with Justin about six months ago, my revenue has nearly doubled.</b> He did this
-					by expertly helping me remove physical and mental blockers that I didn’t even know I had to make
-					room for smart decisions to move my income upward. The best part is, at the same time, <b>he made
-						sure my decision-making fundamentally resonated with who I am as a person.</b><br><br>
-
-					Justin sees the moving parts in my personal life as one-and-the-same as the moving parts in my
-					business. He constantly helps me address that difficult work-life imbalance often associated with
-					being a Solopreneur.<br><br>
-
-					<b>His unique approach beautifully balances psychological and emotional awareness with hard-hitting
-						strategy and clarity of direction.</b> When working with Justin, no stone will go unturned no
-					matter the shape or size. Yet, he will make this seemingly arduous and overwhelming process of doing
-					so unbelievably invigorating, positive, and comfortable."<br><br>
-
-					-<a href="https://www.aaronwaltersmusic.com/" target="_blank">Aaron Walters</a>, Solopreneur,
-					Producer, Composer, Live + Studio Musician
-			</div>
-		</div>
-
-	</div>
-
-	<div class="container-fluid secondary pad">
-		<div class="row text-center h1-container">
-			<div class="col-xs-12">
-				<h1 class="light">About Me</h1>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-12 col-sm-5 text-center" id="about-photo-container">
-				<img src="./assets/images/About.png" id="about-photo">
-			</div>
-			<div class="col-xs-10 col-xs-offset-1 col-sm-5 col-sm-offset-1 secondary-p-container" id="bio">
-				<p>I've made a career out of supporting world-class entrepreneurs and leaders. I started working at my
-					family's business at the age of 12. My first job out of college was employee #3 at a <span
-						id="crystal"><a href="https://www.crystalknows.com/" target="_blank">fast-growing tech
-							startup</a></span>. After that, I never joined a company later than employee #10. I've led
-					the product and data side of an <span id="ravti"><a
-							href="https://www.buildingengines.com/company/newsroom/building-engines-acquires-ravti/"
-							target="_blank">acquisition</a></span>, run data for a <a
-						href="https://blog.spacious.com/spacious-closes-9m-series-a-to-add-100-locations-retail-flagships-98b4f153c4d6"
-						target="_blank">$9M fundraise</a>, and supported C-level leaders in every department of the
-					modern tech org.<br><br>
-
-					Those supporting roles led me to my passion for coaching and the decision to become an
-					entrepreneur.<br><br>
-
-					As a coach, I've worked with clients in NYC, Nashville, and Boston. I've helped solopreneurs grow
-					their income by 50%. I've supported founders through fundraises and acquisitions. And I've helped
-					burgeoning leaders grow into their full potential.</p>
-			</div>
-
 		</div>
 	</div>
 
 	<div class="container-fluid pad primary">
 		<div class="row text-center">
-			<div class="col-xs-12">
+			<!-- <div class="col-xs-12">
 				<h1 class="light">Contact</h1>
 				<iframe
 					src="https://docs.google.com/forms/d/e/1FAIpQLSeRrTRkmz3114rfb7m0aAG0-XFwZQFqp1PhQzdlsGWkKXZ4XA/viewform?embedded=true"
 					width="640" height="1800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-			</div>
+			</div> -->
+			<form class="form-horizontal" id="contactForm" method="POST" onsubmit="formSuccess"
+				action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeRrTRkmz3114rfb7m0aAG0-XFwZQFqp1PhQzdlsGWkKXZ4XA/formResponse">
+				<fieldset>
+
+					<!-- Form Name -->
+					<legend>Get in <span class="font-change-handwritten-header">Contact</span></legend>
+
+					<!-- Text input-->
+					<div class="form-group">
+						<label class="control-label" for="name">Name?*</label>
+							<input id="name" name="entry.1655036938" type="text" placeholder="Full name"
+								class="form-control input-md" required="true">
+					</div>
+
+					<!-- Text input-->
+					<div class="form-group">
+						<label class="control-label" for="email">Email?*</label>
+							<input id="email" name="entry.319172432" type="email" placeholder="hello@email.com"
+								class="form-control input-md" required="true">
+					</div>
+
+					<div class="form-group">
+						<label class="control-label" for="interest">Why are you interested in coaching?*</label>
+							<input id="interest" name="entry.979373761" type="text" placeholder="Type answer"
+								class="form-control input-md" required="true">
+					</div>
+
+
+					<!-- Text input-->
+					<div class="form-group">
+						<label class="control-label" for="career">How would you describe what you do?
+							(Entrepreneur, Founder/CEO, Freelancer, Artist, Athlete, etc.)*</label>
+							<input id="career" name="entry.1332314203" type="text" placeholder="Type answer"
+								class="form-control input-md" required="true">
+
+					</div>
+
+					<!-- Text input-->
+					<div class="form-group">
+						<label class="control-label" for="social">Please provide a link to your preferred
+							professional profile (LinkedIn, Angel.co, etc. - it's ok if you don't have one!)</label>
+							<input id="social" name="entry.2126090599" type="text" placeholder="Optional"
+								class="form-control input-md">
+					</div>
+
+					<!-- Text input-->
+					<div class="form-group">
+						<label class="control-label" for="portfolio">Please provide a link to any personal
+							websites, portfolios, etc. (Ok if you have none here too)</label>
+							<input id="portfolio" name="entry.640552634" type="text" placeholder="Optional"
+								class="form-control input-md">
+
+					</div>
+
+					<!-- Textarea -->
+					<div class="form-group">
+						<label class="control-label" for="extra">Anything else you'd like to add about you,
+							what you're working on, or your interest in coaching?</label>
+							<textarea id="additional" class="form-control textarea" id="extra" name="entry.796222772" placeholder="Optional"></textarea>
+					</div>
+
+					<!-- Button -->
+					<div class="form-group">
+						<label class="control-label" for="submit"></label>
+							<button id="submit" name="submit" type="submit" value="Submit"
+								class="btn btn-primary">Submit</button>
+					</div>
+
+				</fieldset>
+			</form>
+
 		</div>
 	</div>
 
