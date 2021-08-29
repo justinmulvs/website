@@ -2,24 +2,33 @@
 GENERAL STYLES
 *****/
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, legend {
 	font-family: 'Noto Sans KR', sans-serif;
 }
 
-p {
-	font-family: 'Noto Sans KR';
-	font-size: 18px;
+p{
+	font-size: 16px;
+	line-height: 3rem;
 	font-weight: 300;
+	font-family: 'Noto Sans KR', sans-serif;
+	padding: 4px 0;
 }
 
-h1 {
-	font-size: 44px;
-	font-weight: 700;
+.bigp {
+	font-size: 24px;
+	line-height: 4rem;
+	font-weight: 300;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+h1, legend {
+	font-size: 48px;
+	font-weight: 200;
 }
 
 h3 {
+	line-height: 4rem;
 	font-weight: 300;
-	padding: 0 15px;
 }
 
 li {
@@ -32,7 +41,7 @@ a {
 }
 
 a:hover {
-	color: green;
+	color: #FF934F;
 }
 
 .primary {
@@ -81,8 +90,8 @@ HEADER/FOOTER
 }
 
 .pad {
-	padding-top: 10px;
-	padding-bottom: 20px;
+	padding-top: 48px;
+	padding-bottom: 48px;
 }
 
 /*.al-icon {
@@ -98,7 +107,7 @@ HEADER/FOOTER
 }
 
 #footer {
-	background: black;
+	background:#253031;
 	padding-bottom: 20px;
 }
 
@@ -119,28 +128,38 @@ PAGE: HOME
 }
 
 #profile-photo {
-	border-radius: 10%;
-	width: 60%;
-	min-width: 350px;
-	max-width: 500px;
-	border: 2px solid #ddd;
+	border-radius: 100%;
+	width: 100%;
+	min-width: 300px;
+	max-width: 600px;
+	padding: 40px;
+	border: 3px solid #ddd;
+}
+
+#about-photo {
+	border-radius: 100%;
+	min-width: 300px;
+	width: 600px;
+	padding: 40px;
+	border: 2px solid #fff;
 }
 
 .light {
-	font-weight: 400;
+	font-weight: 200;
 }
 
 .testimonial-row {
-	margin: 40px auto;
 	border-radius: 10px;
 	background: white;
-	color: black;
+	color: #253031;
 	padding: 20px;
 	border: 2px solid #ddd;
 }
 
 .testimonial-photo {
-	border-radius: 10px;
+	border-radius: 100%;
+	border: 2px solid #ddd;
+	padding: 40px;
 	max-width: 350px;
 }
 
@@ -148,29 +167,32 @@ PAGE: HOME
 	margin-top: 20px;
 }
 
-#about-photo {
-	width: 70%;
-	max-width: 500px;
-}
-
 .secondary-p-container {
 	background: white;
-	color: black;
+	color: #253031;
 	padding: 10px;
 	margin-top: 20px;
 	border: 2px solid #ddd;
+}
+
+.offset-list {
+	margin-left: 28%;
 }
 
 iframe {
 	max-width: 100%;
 }
 
+#about-me {
+	padding: 15px 0;
+}
+
 #ravti a {
-	color: #3D4094;
+	color: #6C6C94;
 }
 
 #ravti a:hover {
-	color: #61AB7D;
+	color: #FF934F;
 }
 
 #be a {
@@ -178,15 +200,15 @@ iframe {
 }
 
 #be a:hover {
-	color: #0059c4;
+	color: #FF934F;
 }
 
 #spacious a {
-	color: #f5f459;
+	color: #FF934F;
 }
 
 #spacious a:hover {
-	color: #3948C2;
+	color: #FF934F;
 }
 
 #wework a {
@@ -194,7 +216,7 @@ iframe {
 }
 
 #wework a:hover {
-	color: black;
+	color: #253031;
 }
 
 #crystal a {
@@ -202,7 +224,7 @@ iframe {
 }
 
 #crystal a:hover {
-	color: #2E6492;
+	color: #FF934F;
 }
 
 /****
@@ -221,11 +243,11 @@ PAGE:NOTES
 .book-summary {
 	padding: 0 5%;
 	border-bottom: 1px solid #555;
-	color: black;
+	color: #253031;
 }
 
 .book-summary h1 {
-	color: black;
+	color: #253031;
 }
 
 .notes {
@@ -233,7 +255,7 @@ PAGE:NOTES
 	max-width: 80%;
 	margin: auto;
 	padding-top: 2em;
-	color: black;
+	color: #253031;
 }
 
 .notes img {
@@ -313,6 +335,7 @@ PAGE:COMPANY
 	width: 100vw;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 .desktop-display {
@@ -321,6 +344,15 @@ PAGE:COMPANY
 
 .mobile-display {
 	display: none;
+}
+
+.flex-about {
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	align-items:center;
+	max-width: 1500px;
+	margin: 40px auto;
 }
 
 /* FONT TRANSFORMATIONS */
@@ -341,18 +373,24 @@ PAGE:COMPANY
 }
 
 .header-text {
+	line-height: 6vw;	
 	font-weight: 300;
 	font-size: 4vw;
 }
 
 .tagline {
+	max-width:800px;
+	line-height: 40px;
+	margin: 40px auto;
 	font-weight: 100;
 	padding-top: 20px;
 }
 
 /* FLEX & TESTIMONIAL CSS*/
 
+
 .flex-container {
+	margin: 80px 0;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -385,3 +423,77 @@ PAGE:COMPANY
 	margin: auto;
 	max-width: 1200px;
 }
+
+/* FORM */
+
+.form-horizontal {
+	width: fit-content;
+	max-width: 75%;
+	margin: 0 auto;
+}
+
+.form-group {
+	text-align: left;
+	margin-bottom: 40px;
+}
+
+label {
+	text-align: left;
+	font-family: "Noto Sans KR";
+	font-weight: 400;
+	padding-bottom: 8px;
+}
+
+.form-horizontal .control-label{
+	text-align: left;
+}
+
+input[type=text], input[type=email], .textarea {
+	font-family: 'Noto Sans KRt', Arial, Helvetica, sans-serif;
+	border: 2px solid #253031;
+	border-radius: 4px;
+	padding: 20px;
+}
+
+input[type=text]:focus, input[type=email]:focus, .textarea:focus {
+	outline: none;
+  	box-shadow: 0 0 0 4px #FF934F;
+	
+}
+
+
+#submit {
+	font-family: "Noto Sans KR";
+	text-transform: uppercase;
+	font-size: 20px;
+	letter-spacing: 4px;
+	font-weight: 400;
+	padding:18px 40px;
+	background-color: #FF934F;
+	border: none;
+	border-radius: 4px;
+}
+
+#submit:hover {
+	background-color: #a3643c;
+	transition: .25s;
+}
+
+.success {
+	font-family: "Noto Sans KR";
+	font-weight: 400;
+	font-size: 18px;
+}
+
+input[type=text]::placeholder, input[type=email]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	font-family: 'Noto Sans KR', Arial, Helvetica, sans-serif;
+	opacity: 1; /* Firefox */
+  }
+  
+input[type=text]::-ms-input-placeholder, input[type=email]::-ms-input-placeholder { /* Internet Explorer 10-11 */
+	font-family: 'Noto Sans KR', Arial, Helvetica, sans-serif;
+  }
+  
+input[type=text]::-ms-input-placeholder, input[type=email]::-ms-input-placeholder { /* Microsoft Edge */
+	font-family: 'Noto Sans KR', Arial, Helvetica, sans-serif;
+  }
