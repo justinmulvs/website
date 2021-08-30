@@ -121,9 +121,6 @@
 }
 
 @media screen AND (max-width: 1800px) {
-	.header-text {
-		line-height:90px;
-	}
 
 	#meb-photo {
 		margin-top: 0;
