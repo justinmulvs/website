@@ -137,7 +137,7 @@ PAGE: HOME
 
 #about-photo {
 	border-radius: 100%;
-	width: 100%;
+	/*width: 100%;*/
 	max-width: 475px;
 	padding: 40px;
 	border: 2px solid #fff;
