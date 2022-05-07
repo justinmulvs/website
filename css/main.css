@@ -363,6 +363,7 @@ PAGE:COMPANY
 
 .font-change-handwritten {
 	font-family: 'Nothing You Could Do', cursive;
+	word-spacing: -8px;
 }
 
 .font-change-bold {
