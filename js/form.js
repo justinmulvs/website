@@ -14,7 +14,7 @@ form.addEventListener("submit", (e)=>{
     })
     .then(data=>{
         console.log(data);
-        document.getElementById("contactForm").innerHTML= `<p class="success">Thanks for filling out the form! I will be reaching out within 2-3 business days.</p>`
+        document.getElementById("contactForm").innerHTML= `<p class="success">Thanks for your interest in coaching! I'll reach out within 1-3 business days.</p>`
     })
     .catch(err=>console.error(err)); //promise based
 });
