@@ -44,11 +44,11 @@ li {
 
 a {
 	text-decoration: none;
-	color: orange;
+	color: #FF934F;
 }
 
 a:hover {
-	color: #FF934F;
+	color: orange;
 }
 
 .primary {
@@ -63,11 +63,20 @@ a:hover {
 }
 
 .highlight-primary {
-	color: orange;
+	color: #FF934F;
 }
 
 .highlight-secondary {
 	color: #253031;
+}
+
+.btn-primary {
+	font-family: 'Nothing You Could Do', cursive;
+	font-weight: 500;
+	font-size: 24px;
+	background: #FF934F;
+	border-color: white;
+	margin-top: 10px;
 }
 
 /*****
