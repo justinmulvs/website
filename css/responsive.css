@@ -86,6 +86,10 @@
 
 @media screen AND (min-width: 1200px) {
 	
+	.facilitation-testimonial {
+		margin-top: 0px;
+	}
+
 	/* #cohn-photo {
 		margin-top: 0;
 	}
