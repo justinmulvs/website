@@ -44,11 +44,11 @@ li {
 
 a {
 	text-decoration: none;
-	color: orange;
+	color: #FF934F;
 }
 
 a:hover {
-	color: #FF934F;
+	color: orange;
 }
 
 .primary {
@@ -63,11 +63,20 @@ a:hover {
 }
 
 .highlight-primary {
-	color: orange;
+	color: #FF934F;
 }
 
 .highlight-secondary {
 	color: #253031;
+}
+
+.btn-primary {
+	font-family: 'Nothing You Could Do', cursive;
+	font-weight: 500;
+	font-size: 24px;
+	background: #FF934F;
+	border-color: white;
+	margin-top: 10px;
 }
 
 /*****
@@ -92,8 +101,27 @@ HEADER/FOOTER
 	text-decoration: none;
 }
 
+#site-header h3 a:hover {
+	border-bottom: 1px solid #fff;
+	padding-bottom: 3px;
+}
+
+.navigation {
+	text-align: center;
+}
+
+.navigation h3 {
+	font-size: 20px;
+	margin-top: 0px;
+}
+
+#facilitation h3 a {
+	border-bottom: 1px solid #fff;
+	padding-bottom: 3px;
+}
+
 #header-icons {
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 .pad {
@@ -171,6 +199,10 @@ PAGE: HOME
 
 .testimonial {
 	margin-top: 20px;
+}
+
+.facilitation-testimonial {
+	margin-top: 30px;
 }
 
 .secondary-p-container {
@@ -374,8 +406,8 @@ PAGE:COMPANY
 }
 
 .font-change-bold {
-	font-weight: 900;
-	font-size: 8vw;
+	font-weight: 600;
+	font-size: 6vw;
 }
 
 .header-text {

@@ -8,7 +8,19 @@
 	#header-icons {
 		text-align: right;
 		margin-top: 25px;
+		padding-left: 0px;
 	}
+
+	.navigation {
+		text-align: right;
+		margin-top: 18px;
+	}
+
+	.navigation h3 {
+		margin-bottom: 0px;
+		font-size: 18px;
+	}
+	
 	.p-container {
 		margin-top: 0px;
 	}
@@ -86,6 +98,10 @@
 
 @media screen AND (min-width: 1200px) {
 	
+	.facilitation-testimonial {
+		margin-top: 0px;
+	}
+
 	/* #cohn-photo {
 		margin-top: 0;
 	}
