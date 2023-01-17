@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*index\ HTTP/
+RewriteRule ^(.*)index$ https://justinmulvaney.com/$1 [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/$ https://justinmulvaney.com/$1 [L,R=301]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(.+)\.html\ HTTP/
+RewriteRule ^(.+)\.html$ https://justinmulvaney.com/$1 [L,R=301]
+RewriteRule ^([a-z]+)$ /$1.html [L]
