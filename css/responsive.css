@@ -8,7 +8,19 @@
 	#header-icons {
 		text-align: right;
 		margin-top: 25px;
+		padding-left: 0px;
 	}
+
+	.navigation {
+		text-align: right;
+		margin-top: 18px;
+	}
+
+	.navigation h3 {
+		margin-bottom: 0px;
+		font-size: 18px;
+	}
+	
 	.p-container {
 		margin-top: 0px;
 	}

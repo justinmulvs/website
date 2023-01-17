@@ -101,8 +101,27 @@ HEADER/FOOTER
 	text-decoration: none;
 }
 
+#site-header h3 a:hover {
+	border-bottom: 1px solid #fff;
+	padding-bottom: 3px;
+}
+
+.navigation {
+	text-align: center;
+}
+
+.navigation h3 {
+	font-size: 20px;
+	margin-top: 0px;
+}
+
+#facilitation h3 a {
+	border-bottom: 1px solid #fff;
+	padding-bottom: 3px;
+}
+
 #header-icons {
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 .pad {
