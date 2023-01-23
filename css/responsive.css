@@ -25,25 +25,10 @@
 		margin-top: 0px;
 	}
 
-	/* #alr-photo {
-		margin-top: 10%;
-	}
-
-	#cohn-photo {
-		margin-top: 20%;
-	}
-
-	#meb-photo {
-		margin-top: 95%;
-	}
-
-	#raw-photo {
-		margin-top: 75%;
-	} */
-
 	#about-photo-container {
 		text-align: right;
 	}
+
 	/***
 	PAGE:BOOKS
 	***/
@@ -58,26 +43,6 @@
 
 
 @media screen AND (min-width: 990px) {
-	
-	/* #alr-photo {
-		margin-top: 0;
-	} */
-
-	/* #alr-testimonial {
-		margin-top: 2%;
-	}
-
-	#cohn-photo {
-		margin-top: 5%;
-	}
-
-	#meb-photo {
-		margin-top: 48%;
-	}
-
-	#raw-photo {
-		margin-top: 33%;
-	} */
 
 	/****
 	PAGE:NOTES
@@ -101,39 +66,13 @@
 	.facilitation-testimonial {
 		margin-top: 0px;
 	}
-
-	/* #cohn-photo {
-		margin-top: 0;
-	}
-
-	#meb-photo {
-		margin-top: 8%;
-	}
-
-	#raw-photo {
-		margin-top: 6%;
-	}
-
-	#about-photo {
-		padding-top: 0;
-	} */
-
-
 }
 
 @media screen AND (min-width: 1400px) {
 	#bio{
 		margin-left: 80px;
 		padding-right: 50px;
-	}
-/* 
-	#meb-photo {
-		margin-top: 20px;
-	}
-
-	#raw-photo {
-		margin-top: 20px;
-	} */
+	}	
 }
 
 @media screen AND (max-width: 1800px) {
