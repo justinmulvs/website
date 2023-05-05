@@ -241,8 +241,16 @@ iframe {
 	color: #FF934F;
 }
 
-#spacious a {
+#conscious a {
+	color: #EC332E;
+}
+
+#conscious a:hover {
 	color: #FF934F;
+}
+
+#spacious a {
+	color: #FFFF00;
 }
 
 #spacious a:hover {
