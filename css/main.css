@@ -273,6 +273,12 @@ iframe {
 	color: #FF934F;
 }
 
+#podcast-image {
+	border-radius: 5%;
+	/*width: 100%;*/
+	max-width: 475px;
+}
+
 /****
 PAGE:BOOKS
 ****/

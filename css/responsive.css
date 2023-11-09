@@ -75,18 +75,6 @@
 	}	
 }
 
-@media screen AND (max-width: 1800px) {
-
-	#meb-photo {
-		margin-top: 0;
-	}
-
-	#raw-photo {
-		margin-top: 0;
-	}
-}
-
-
 /* TESTIMONIALS AND FLEX MEDIA QUERY */
 @media screen AND (max-width: 1400px) {
 
@@ -130,7 +118,7 @@
 	.vertical-center {
 		flex-direction: column;
 	}
-	#about-photo {
+	#about-photo, #podcast-image {
 		margin-bottom: 40px;
 	}
 	.image-right {
@@ -158,6 +146,9 @@
 	}
 	#about-photo {
 		max-width: 300px;
+	}
+	#podcast-image {
+		max-width: 350px;
 	}
 	#profile-photo{
 		max-width: 300px;
@@ -195,7 +186,7 @@
 }
 
 @media screen and (max-width: 375px) {
-    #about-photo, #profile-photo, .testimonial-photo {
+    #about-photo, #profile-photo, #podcast-image, .testimonial-photo {
         width: 90vw;
     }
 }
