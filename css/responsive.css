@@ -75,18 +75,6 @@
 	}	
 }
 
-@media screen AND (max-width: 1800px) {
-
-	#meb-photo {
-		margin-top: 0;
-	}
-
-	#raw-photo {
-		margin-top: 0;
-	}
-}
-
-
 /* TESTIMONIALS AND FLEX MEDIA QUERY */
 @media screen AND (max-width: 1400px) {
 
