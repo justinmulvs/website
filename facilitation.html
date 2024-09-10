@@ -189,27 +189,80 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="container-fluid pad primary">
-		<div class="center-div">
-			<div class="row text-center h1-container">
-				<div class="col-xs-12">
-					<h1 class="light"><span class="font-change-handwritten-header">Contact</span></h1>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 text-center">
-					<p class="bigp"><b>Ready to get started? </b>Shoot me an <a href="mailto:justin.mulvaney@gmail.com" target="_blank">email</a> or schedule a free discovery call.
-				</div>	
-			</div>
-			<div class="row">
-				<div class="col-xs-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-					<a href="https://calendly.com/justin-mulvaney/60-minute-discovery-call" target="_blank"><button type="button" class="btn btn-primary btn-lg btn-block"><b>Book a Discovery Call</b></button></a>
-				</div>
-			</div>
+		<div class="row text-center">
+			<!-- <div class="col-xs-12">
+				<h1 class="light">Contact</h1>
+				<iframe
+					src="https://docs.google.com/forms/d/e/1FAIpQLSeRrTRkmz3114rfb7m0aAG0-XFwZQFqp1PhQzdlsGWkKXZ4XA/viewform?embedded=true"
+					width="640" height="1800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+			</div> -->
+			<form class="form-horizontal" id="contactForm" method="POST" onsubmit="formSuccess"
+				action="https://docs.google.com/forms/d/e/1FAIpQLScM1mdyqTJ6Zx-lERD9i_KwrFDcLXWXhKtgFeL1fylTMuJe2Q/formResponse">
+				<fieldset>
+
+					<!-- Form Name -->
+					<legend>Get in <span class="font-change-handwritten-header">Touch</span></legend>
+
+					<!-- Text input-->
+					<div class="form-group">
+						<label class="control-label" for="name">Name?*</label>
+							<input id="name" name="entry.1655036938" type="text" placeholder="Full name"
+								class="form-control input-md" required="true">
+					</div>
+
+					<!-- Text input-->
+					<div class="form-group">
+						<label class="control-label" for="email">Email?*</label>
+							<input id="email" name="entry.319172432" type="email" placeholder="hello@email.com"
+								class="form-control input-md" required="true">
+					</div>
+
+
+					<!-- Text input-->
+					<div class="form-group">
+						<label class="control-label" for="career">Job Title & Company*</label>
+							<input id="career" name="entry.1332314203" type="text" placeholder="Type answer"
+								class="form-control input-md" required="true">
+
+					</div>
+
+					<!-- Text input-->
+					<div class="form-group">
+						<label class="control-label" for="offerings">What offering(s) are you interested in exploring together?*</label>
+							<input id="offerings" name="entry.1531190884" type="text" placeholder="Type Answer"
+								class="form-control input-md" required="true">
+					</div>
+
+					<!-- Text input-->
+					<div class="form-group">
+						<label class="control-label" for="interest">Why are you interested in coaching or facilitation?*</label>
+							<input id="interest" name="entry.1625373356" type="text" placeholder="Type Answer"
+								class="form-control input-md" required="true">
+
+					</div>
+
+					<!-- Textarea -->
+					<div class="form-group">
+						<label class="control-label" for="additional">Anything else you'd like to add about you, what you're working on, or your interest in working together?</label>
+							<textarea id="additional" class="form-control textarea" id="extra" name="entry.796222772" placeholder="Optional"></textarea>
+					</div>
+
+					<!-- Button -->
+					<div class="form-group">
+						<label class="control-label" for="submit"></label>
+							<button id="submit" name="submit" type="submit" value="Submit"
+								class="btn btn-primary">Submit</button>
+					</div>
+
+				</fieldset>
+			</form>
+
 		</div>
 	</div>
 	
+
 	<div class="container-fluid" id="footer">
 		<div class="row text-center">
 			<div class="col-xs-12 text-center" id="footer-icons">
