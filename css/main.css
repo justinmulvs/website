@@ -2,6 +2,10 @@
 GENERAL STYLES
 *****/
 
+html {
+	scroll-behavior: smooth;
+}
+
 h1, h2, h3, h4, legend {
 	font-family: 'Noto Sans KR', sans-serif;
 }
@@ -24,6 +28,10 @@ p {
 h1, legend {
 	font-size: 48px;
 	font-weight: 200;
+}
+
+h2 {
+	font-weight: 300;
 }
 
 h3 {
@@ -49,6 +57,10 @@ a {
 
 a:hover {
 	color: orange;
+}
+
+#menu-name {
+	font-weight: 500;
 }
 
 .primary {
@@ -78,6 +90,7 @@ a:hover {
 	border-color: white;
 	margin-top: 10px;
 }
+
 
 /*****
 HEADER/FOOTER
@@ -181,6 +194,43 @@ PAGE: HOME
 .light {
 	font-weight: 200;
 }
+
+
+.coaching-box {
+    background-color: #253031;
+    color: white;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0;
+    text-align: left;
+    /* Text remains left-aligned */
+}
+
+.btn-learn-more {
+    margin-top: auto;
+    background-color: #FF934F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Prevent button from being full-width */
+    align-self: flex-start;
+}
+
+.btn-learn-more:hover {
+    background-color: #E67E22;
+}
+
+.col-md-6 {
+    display: flex;
+    align-items: stretch;
+}
+
 
 .testimonial-row {
 	border-radius: 10px;

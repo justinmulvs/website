@@ -1,4 +1,4 @@
-let url = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSeRrTRkmz3114rfb7m0aAG0-XFwZQFqp1PhQzdlsGWkKXZ4XA/formResponse"
+let url = "https://docs.google.com/forms/d/e/1FAIpQLScM1mdyqTJ6Zx-lERD9i_KwrFDcLXWXhKtgFeL1fylTMuJe2Q/formResponse"
 let form = document.querySelector("#contactForm"); //form element
 
 form.addEventListener("submit", (e)=>{
@@ -26,10 +26,9 @@ function getInputData(){
     //fill name attributes to corresponding values
     dataToPost.append("entry.1655036938", document.querySelector("#name").value);
     dataToPost.append("entry.319172432", document.querySelector("#email").value);
-    dataToPost.append("entry.979373761", document.querySelector("#interest").value);
     dataToPost.append("entry.1332314203", document.querySelector("#career").value);
-    dataToPost.append("entry.2126090599", document.querySelector("#social").value);
-    dataToPost.append("entry.640552634", document.querySelector("#portfolio").value);
+    dataToPost.append("entry.1531190884", document.querySelector("#offerings").value);
+    dataToPost.append("entry.1625373356", document.querySelector("#interest").value);
     dataToPost.append("entry.796222772", document.querySelector("#additional").value);
     
     return dataToPost;
