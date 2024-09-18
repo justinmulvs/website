@@ -59,6 +59,10 @@ a:hover {
 	color: orange;
 }
 
+#menu-name {
+	font-weight: 500;
+}
+
 .primary {
 	background: #fafafa;
 }
@@ -165,6 +169,7 @@ PAGE: HOME
 
 #hero {
 	overflow: hidden;
+	border-bottom: 1px solid #253031;
 }
 
 .h1-container {
@@ -190,6 +195,43 @@ PAGE: HOME
 .light {
 	font-weight: 200;
 }
+
+
+.coaching-box {
+    background-color: #253031;
+    color: white;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 0;
+    text-align: left;
+    /* Text remains left-aligned */
+}
+
+.btn-learn-more {
+    margin-top: auto;
+    background-color: #FF934F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* Prevent button from being full-width */
+    align-self: flex-start;
+}
+
+.btn-learn-more:hover {
+    background-color: #E67E22;
+}
+
+.col-md-6 {
+    display: flex;
+    align-items: stretch;
+}
+
 
 .testimonial-row {
 	border-radius: 10px;
