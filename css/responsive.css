@@ -1,198 +1,302 @@
 @media screen and (min-width: 768px) {
-	#header {
-		text-align: left;
-	}
-	#site-header {
-		padding-bottom: 10px;
-	}
-	#header-icons {
-		text-align: right;
-		margin-top: 25px;
-		padding-left: 0px;
-	}
+  #header {
+    text-align: left;
+  }
+  #site-header {
+    padding-bottom: 10px;
+  }
+  #header-icons {
+    text-align: right;
+    margin-top: 25px;
+    padding-left: 0px;
+  }
 
-	.navigation {
-		text-align: right;
-		margin-top: 18px;
-	}
+  .navigation {
+    text-align: right;
+    margin-top: 18px;
+  }
 
-	.navigation h3 {
-		margin-bottom: 0px;
-		font-size: 18px;
-	}
-	
-	.p-container {
-		margin-top: 0px;
-	}
+  .navigation h3 {
+    margin-bottom: 0px;
+    font-size: 18px;
+  }
 
-	#about-photo-container {
-		text-align: right;
-	}
+  .p-container {
+    margin-top: 0px;
+  }
 
-	/***
+  #about-photo-container {
+    text-align: right;
+  }
+
+  /***
 	PAGE:BOOKS
 	***/
-	.books {
-		border-left: 1px solid grey;
-		border-right: 1px solid grey;
-		padding: 0 40px;
-	}
+  .books {
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding: 0 40px;
+  }
 }
 
 /* Weird stuff could probably fit in a diff media query but this is the only way I got it to work :shrug:*/
 
-
 @media screen AND (min-width: 990px) {
-
-	/****
+  /****
 	PAGE:NOTES
 	****/
-	#notes {
-		background-color: #fafafa;
-	}
-	.book-summary {
-		background-color: white;
-		border-bottom: 1px solid #ddd;
-	}
-	.notes {
-		background-color: white;
-		border: 1px solid #f2f2f2;
-		padding: 2em 20px;
-	}
+  #notes {
+    background-color: #fafafa;
+  }
+  .book-summary {
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+  }
+  .notes {
+    background-color: white;
+    border: 1px solid #f2f2f2;
+    padding: 2em 20px;
+  }
 }
 
 @media screen AND (min-width: 1200px) {
-	
-	.facilitation-testimonial {
-		margin-top: 0px;
-	}
+  .facilitation-testimonial {
+    margin-top: 0px;
+  }
 }
 
 @media screen AND (min-width: 1400px) {
-	#bio{
-		margin-left: 80px;
-		padding-right: 50px;
-	}	
+  #bio {
+    margin-left: 80px;
+    padding-right: 50px;
+  }
 }
 
 /* TESTIMONIALS AND FLEX MEDIA QUERY */
 @media screen AND (max-width: 1400px) {
+  .fractal-container {
+    width: 300%;
+    margin-left: -50%;
+  }
 
-	.fractal-container {
-		width: 300%;
-		margin-left: -50%;
-	}
+  .header-text {
+    font-size: 6vw;
+    line-height: 10vw;
+  }
 
-	.header-text {
-		font-size: 6vw;
-		line-height: 10vw;
-	}
-	
-	#profile-photo {
-		margin-top: 40px;
-	}
-	.desktop-display {
-		display: none;
-	}
-	.mobile-display {
-		display: block;
-	}
-	.tagline {
-		padding: 20px;
-		text-align: center;
-	}
-	.font-change-bold {
-		font-size: 10vw;
-	}
-	.flex-container {
-		flex-direction: column;
-		width:100%;
-	}
-	.flex-about {
-		flex-direction: column;
-		max-width:100%;
-		padding: 40px;
-		margin-top: 40px;
-	}
+  #profile-photo {
+    margin-top: 40px;
+  }
+  .desktop-display {
+    display: none;
+  }
+  .mobile-display {
+    display: block;
+  }
+  .tagline {
+    padding: 20px;
+    text-align: center;
+  }
+  .font-change-bold {
+    font-size: 10vw;
+  }
+  .flex-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .flex-about {
+    flex-direction: column;
+    max-width: 100%;
+    padding: 40px;
+    margin-top: 40px;
+  }
 
-	.vertical-center {
-		flex-direction: column;
-	}
-	#about-photo, #podcast-image {
-		margin-bottom: 40px;
-	}
-	.image-right {
-		order:0;
-	}
-	.offset-right {
-		margin-left: 0px;
-	}
-	.offset-left {
-		margin-right: 0px;
-	}
-	.image-right {
-		margin-left: 0px;
-	}
-	.image-left {
-		margin-right: 0px;
-	}
+  .vertical-center {
+    flex-direction: column;
+  }
+  #about-photo,
+  #podcast-image {
+    margin-bottom: 40px;
+  }
+  .image-right {
+    order: 0;
+  }
+  .offset-right {
+    margin-left: 0px;
+  }
+  .offset-left {
+    margin-right: 0px;
+  }
+  .image-right {
+    margin-left: 0px;
+  }
+  .image-left {
+    margin-right: 0px;
+  }
 
-	.row {
-		margin: 0;
-	}
-	.testimonial-photo {
-		max-width: 300px;
-		margin-bottom: 24px;
-	}
-	#about-photo {
-		max-width: 300px;
-	}
-	#podcast-image {
-		max-width: 350px;
-	}
-	#profile-photo{
-		max-width: 300px;
-	}
-	.bigp {
-		font-size: 20px;
-		line-height: 3.5rem;
-	}
+  .row {
+    margin: 0;
+  }
+  .testimonial-photo {
+    max-width: 300px;
+    margin-bottom: 24px;
+  }
+  #about-photo {
+    max-width: 300px;
+  }
+  #podcast-image {
+    max-width: 350px;
+  }
+  #profile-photo {
+    max-width: 300px;
+  }
+  .bigp {
+    font-size: 20px;
+    line-height: 3.5rem;
+  }
 
-	.flex-about {
-		padding: 20px;
-	}
+  .flex-about {
+    padding: 20px;
+  }
 
-	.align-middle {
-		padding: 0;
-	}
-	
-	#submit {
-		width: 100%;
-	}
+  .align-middle {
+    padding: 0;
+  }
+
+  #submit {
+    width: 100%;
+  }
 }
 @media screen AND (max-width: 800px) {
-	.header-text{
-		font-size: 10vw;
-		line-height:15vw;
-	}
-	.font-change-bold {
-		font-size: 16vw;
-	}
+  .header-text {
+    font-size: 10vw;
+    line-height: 15vw;
+  }
+  .font-change-bold {
+    font-size: 16vw;
+  }
 
-	label {
-		text-align: left;
-	}
-	
+  label {
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 375px) {
-    #about-photo, #profile-photo, #podcast-image, .testimonial-photo {
-        width: 90vw;
-    }
+  #about-photo,
+  #profile-photo,
+  #podcast-image,
+  .testimonial-photo {
+    width: 90vw;
+  }
 }
 
 @media screen and (min-width: 320px) {
-	.light {
-		font-size: 40px
-	}
+  .light {
+    font-size: 40px;
+  }
+}
+
+/* Testimonial Carousel Responsive */
+@media screen and (max-width: 768px) {
+  .testimonial-carousel {
+    padding: 24px;
+    margin: 0 16px;
+    border-radius: 12px;
+  }
+
+  .carousel-slides {
+    height: auto;
+    min-height: 320px;
+  }
+
+  .carousel-slide-inner {
+    height: auto;
+  }
+
+  .carousel-photo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .carousel-header {
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+
+  .carousel-name {
+    font-size: 1.15rem;
+  }
+
+  .carousel-title {
+    font-size: 0.9rem;
+  }
+
+  .carousel-quote-wrapper {
+    padding-top: 20px;
+  }
+
+  /* Truncate quote on mobile */
+  .carousel-quote {
+    font-size: 1rem;
+    line-height: 1.8;
+    max-height: 180px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* Fade effect at bottom when truncated */
+  .carousel-quote-wrapper:not(.expanded) .carousel-quote::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: linear-gradient(transparent, white);
+    pointer-events: none;
+  }
+
+  /* When expanded */
+  .carousel-quote-wrapper.expanded .carousel-quote {
+    max-height: none;
+  }
+
+  .carousel-quote-wrapper.expanded .carousel-quote::after {
+    display: none;
+  }
+
+  .carousel-nav {
+    gap: 16px;
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+
+  .carousel-arrow {
+    width: 36px;
+    height: 36px;
+  }
+
+  .carousel-arrow svg {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .testimonial-carousel {
+    padding: 20px;
+  }
+
+  .carousel-photo {
+    width: 52px;
+    height: 52px;
+  }
+
+  .carousel-name {
+    font-size: 1.05rem;
+  }
+
+  .carousel-quote {
+    max-height: 150px;
+  }
 }
