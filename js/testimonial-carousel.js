@@ -79,7 +79,7 @@
             <img src="./assets/images/${t.headshotImage}" alt="${t.name}" class="carousel-photo">
             <div class="carousel-person">
               <a href="${t.linkedinUrl}" target="_blank" class="carousel-name">${t.name}</a>
-              <span class="carousel-title">${t.title}, <a href="${t.companyUrl}" target="_blank">${t.company}</a></span>
+              <span class="carousel-title">${t.title}, ${t.companyUrl && t.companyUrl.trim() ? `<a href="${t.companyUrl}" target="_blank">${t.company}</a>` : t.company}</span>
             </div>
           </div>
           <div class="carousel-quote-wrapper">

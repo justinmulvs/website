@@ -2,7 +2,6 @@
 name: Felipe Abello
 title: Founder & CEO
 company: Nara
-companyUrl: https://trynara.com/
 linkedinUrl: https://www.linkedin.com/in/pipeabello/
 headshotImage: felipe_headshot.jpg
 ---
