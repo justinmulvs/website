@@ -237,7 +237,7 @@
 
   /* Truncate quote on mobile */
   .carousel-quote {
-    font-size: 1rem;
+    font-size: 1.4rem;
     line-height: 1.8;
     max-height: 180px;
     overflow: hidden;
