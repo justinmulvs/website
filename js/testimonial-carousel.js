@@ -7,6 +7,7 @@
   let touchStartX = 0;
   let touchEndX = 0;
   let direction = 'next';
+  let baseCarouselHeight = 0;
 
   // DOM elements
   let carousel, slidesContainer, navContainer, prevBtn, nextBtn, counterEl;
@@ -41,11 +42,11 @@
 
     await loadTestimonials();
     renderSlides();
+    setupReadMore();
     setCarouselHeight();
     renderNav();
     bindEvents();
     showSlide(0);
-    setupReadMore();
 
     window.addEventListener('resize', setCarouselHeight);
   }
@@ -102,11 +103,17 @@
     const slides = slidesContainer.querySelectorAll('.carousel-slide');
     let maxHeight = 0;
 
-    // Temporarily make all slides visible to measure
+    // Temporarily make all slides visible to measure (with max-height applied)
     slides.forEach(slide => {
       slide.style.position = 'relative';
       slide.style.visibility = 'hidden';
       slide.style.opacity = '1';
+    });
+
+    // Force layout so max-height on .carousel-quote takes effect
+    slidesContainer.offsetHeight;
+
+    slides.forEach(slide => {
       const height = slide.offsetHeight;
       if (height > maxHeight) maxHeight = height;
     });
@@ -118,6 +125,7 @@
       slide.style.opacity = '';
     });
 
+    baseCarouselHeight = maxHeight;
     slidesContainer.style.height = maxHeight + 'px';
   }
 
@@ -144,19 +152,17 @@
   // Setup read more functionality
   function setupReadMore() {
     const checkOverflow = () => {
-      const isMobile = window.innerWidth <= 768;
       document.querySelectorAll('.carousel-quote-wrapper').forEach(wrapper => {
         const quote = wrapper.querySelector('.carousel-quote');
         const btn = wrapper.querySelector('.carousel-read-more');
         const isExpanded = wrapper.classList.contains('expanded');
 
-        if (isMobile && !isExpanded) {
-          // Check if content overflows
-          const isOverflowing = quote.scrollHeight > quote.clientHeight;
+        if (!isExpanded) {
+          // Compare natural height against the CSS max-height constraint
+          const maxH = parseFloat(getComputedStyle(quote).maxHeight);
+          const isOverflowing = isFinite(maxH) && quote.scrollHeight > maxH;
           btn.style.display = isOverflowing ? 'block' : 'none';
-        } else if (!isMobile) {
-          btn.style.display = 'none';
-          wrapper.classList.remove('expanded');
+          wrapper.classList.toggle('overflowing', isOverflowing);
         }
       });
     };
@@ -166,38 +172,53 @@
       if (e.target.classList.contains('carousel-read-more')) {
         const wrapper = e.target.closest('.carousel-quote-wrapper');
         const isExpanded = wrapper.classList.contains('expanded');
+
+        // On desktop, measure height delta before toggling (avoids CSS transition timing issues)
+        let extraHeight = 0;
+        if (window.innerWidth > 768 && !isExpanded) {
+          const quote = wrapper.querySelector('.carousel-quote');
+          extraHeight = quote.scrollHeight - quote.offsetHeight;
+        }
+
         wrapper.classList.toggle('expanded');
         e.target.textContent = isExpanded ? 'Read more' : 'Show less';
         e.target.setAttribute('aria-expanded', !isExpanded);
+
+        // On desktop, update container height for expanded/collapsed content
+        if (window.innerWidth > 768) {
+          if (!isExpanded) {
+            slidesContainer.style.height = (baseCarouselHeight + extraHeight) + 'px';
+          } else {
+            slidesContainer.style.height = baseCarouselHeight + 'px';
+          }
+        }
       }
     });
 
-    // Check on load and resize
+    // Check on load (after layout settles) and resize
     checkOverflow();
     window.addEventListener('resize', checkOverflow);
   }
 
-  // Show specific slide with animation direction
-  function showSlide(index) {
-    previousIndex = currentIndex;
-
-    if (index < 0) index = testimonials.length - 1;
-    if (index >= testimonials.length) index = 0;
-    currentIndex = index;
-
-    // Determine direction for animation
-    const slides = slidesContainer.querySelectorAll('.carousel-slide');
-
-    slides.forEach((slide, i) => {
-      slide.classList.remove('active', 'exit-left', 'exit-right', 'enter-left', 'enter-right');
-
-      // Reset any expanded quotes when changing slides
-      const wrapper = slide.querySelector('.carousel-quote-wrapper');
-      if (wrapper) {
+  // Transition to the next/prev slide
+  function transitionSlide(slides) {
+    // Collapse any expanded quotes on the previous slide
+    const prevSlide = slides[previousIndex];
+    if (prevSlide) {
+      const wrapper = prevSlide.querySelector('.carousel-quote-wrapper');
+      if (wrapper && wrapper.classList.contains('expanded')) {
         wrapper.classList.remove('expanded');
         const btn = wrapper.querySelector('.carousel-read-more');
         if (btn) btn.textContent = 'Read more';
+        // Revert container height on desktop
+        if (window.innerWidth > 768) {
+          slidesContainer.style.height = baseCarouselHeight + 'px';
+        }
       }
+    }
+
+    slides.forEach((slide, i) => {
+      slide.classList.remove('active', 'exit-left', 'exit-right', 'enter-left', 'enter-right');
 
       if (i === currentIndex) {
         slide.classList.add('active', direction === 'next' ? 'enter-right' : 'enter-left');
@@ -218,12 +239,38 @@
         const wrapper = activeSlide.querySelector('.carousel-quote-wrapper');
         const quote = activeSlide.querySelector('.carousel-quote');
         const btn = activeSlide.querySelector('.carousel-read-more');
-        if (wrapper && quote && btn && window.innerWidth <= 768) {
-          const isOverflowing = quote.scrollHeight > quote.clientHeight;
+        if (wrapper && quote && btn) {
+          const maxH = parseFloat(getComputedStyle(quote).maxHeight);
+          const isOverflowing = isFinite(maxH) && quote.scrollHeight > maxH;
           btn.style.display = isOverflowing ? 'block' : 'none';
+          wrapper.classList.toggle('overflowing', isOverflowing);
         }
       }
     }, 50);
+  }
+
+  // Show specific slide with animation direction
+  function showSlide(index) {
+    previousIndex = currentIndex;
+
+    if (index < 0) index = testimonials.length - 1;
+    if (index >= testimonials.length) index = 0;
+    currentIndex = index;
+
+    const slides = slidesContainer.querySelectorAll('.carousel-slide');
+
+    // On mobile, if scrolled past carousel: scroll up, then collapse + transition
+    if (window.innerWidth <= 768) {
+      const carouselRect = carousel.getBoundingClientRect();
+      if (carouselRect.top < 0) {
+        carousel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        // Wait for scroll to finish, then collapse and transition
+        setTimeout(() => transitionSlide(slides), 400);
+        return;
+      }
+    }
+
+    transitionSlide(slides);
   }
 
   // Navigation functions

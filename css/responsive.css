@@ -213,56 +213,35 @@
     height: auto;
   }
 
-  .carousel-photo {
-    width: 60px;
-    height: 60px;
-  }
-
   .carousel-header {
-    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
     margin-bottom: 20px;
   }
 
+  .carousel-photo {
+    width: 120px;
+    height: 120px;
+  }
+
   .carousel-name {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   .carousel-title {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 
   .carousel-quote-wrapper {
     padding-top: 20px;
   }
 
-  /* Truncate quote on mobile */
   .carousel-quote {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     line-height: 1.8;
-    max-height: 180px;
-    overflow: hidden;
-    position: relative;
-  }
-
-  /* Fade effect at bottom when truncated */
-  .carousel-quote-wrapper:not(.expanded) .carousel-quote::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 60px;
-    background: linear-gradient(transparent, white);
-    pointer-events: none;
-  }
-
-  /* When expanded */
-  .carousel-quote-wrapper.expanded .carousel-quote {
-    max-height: none;
-  }
-
-  .carousel-quote-wrapper.expanded .carousel-quote::after {
-    display: none;
+    max-height: calc(100vh - 420px);
   }
 
   .carousel-nav {
@@ -288,8 +267,8 @@
   }
 
   .carousel-photo {
-    width: 52px;
-    height: 52px;
+    width: 100px;
+    height: 100px;
   }
 
   .carousel-name {
@@ -297,6 +276,6 @@
   }
 
   .carousel-quote {
-    max-height: 150px;
+    max-height: calc(100vh - 430px);
   }
 }

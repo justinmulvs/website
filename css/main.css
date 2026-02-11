@@ -624,6 +624,7 @@ TESTIMONIAL CAROUSEL
 .carousel-slides {
   position: relative;
   /* height set by JS based on tallest slide */
+  transition: height 0.4s ease;
 }
 
 .carousel-slide {
@@ -712,7 +713,6 @@ TESTIMONIAL CAROUSEL
 .carousel-slide-inner {
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 
 /* Header with photo and person info */
@@ -769,8 +769,6 @@ TESTIMONIAL CAROUSEL
 
 /* Quote wrapper and text */
 .carousel-quote-wrapper {
-  flex: 1;
-  overflow: hidden;
   position: relative;
   padding-top: 16px;
   border-top: 1px solid #eee;
@@ -781,18 +779,41 @@ TESTIMONIAL CAROUSEL
   line-height: 1.7;
   text-wrap: pretty;
   color: #333;
+  max-height: calc(90vh - 300px);
+  overflow: hidden;
+  position: relative;
+  transition: max-height 0.4s ease;
+}
+
+.carousel-quote-wrapper.overflowing:not(.expanded) .carousel-quote::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: linear-gradient(transparent, white);
+  pointer-events: none;
+}
+
+.carousel-quote-wrapper.expanded .carousel-quote {
+  max-height: 2000px;
+}
+
+.carousel-quote-wrapper.expanded .carousel-quote::after {
+  display: none;
 }
 
 /* Read more button (hidden by default, shown on mobile when needed) */
 .carousel-read-more {
   display: none;
   margin-top: 12px;
-  padding: 8px 16px;
+  padding: 10px 20px;
   background: #f5f5f5;
   border: 1px solid #ddd;
   border-radius: 20px;
   color: #666;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   cursor: pointer;
   transition: all 0.2s ease;
 }
