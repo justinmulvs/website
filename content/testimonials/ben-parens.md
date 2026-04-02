@@ -1,8 +1,8 @@
 ---
 name: Ben Parens
 title: Co-Founder
-company: Stealth Startup
-companyUrl: 
+company: Nestwell
+companyUrl: https://www.gonestwell.com/
 linkedinUrl: https://www.linkedin.com/in/ben-parens-411419107/
 headshotImage: benp_headshot.jpeg
 ---
