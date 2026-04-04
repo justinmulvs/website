@@ -15,4 +15,4 @@ Over two-plus years, Justin helped me find my footing in chaos and speak from tr
 
 What makes Justin special is his ability to be empathetic while teaching presence and providing the right amount of challenge. He saw me, supported me, and then pushed me - in the best way.
 
-Being a founder can be hard and lonely. With Justin, it gets easier and less lonely. Help yourself roll a 20 and work with Justin - I highly recommend it.
+Being a founder can be hard and lonely. With Justin, it gets easier and less lonely. Help yourself and work with Justin - I highly recommend it.
